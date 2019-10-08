@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Classificação NB</title>
+<!-- Referência ao Bootstrap CDN -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- Definição de estilo para fonte -->
+<style>
+        .lb-sm{
+            font-size: 9pt;
+            font-family: "Helvetica";
+        }
+</style>
+
+</head>
+<body>
+   <!-- div container -->
+   <div class="container">
+       <!-- Criação de uma div painel -->
+       <div class="panel panel-info">
+           <!-- Título da div painel -->
+           
+           <div class="panel-heading"><b>Publicação de Modelos de Machine Learning - Classificação  com Naive Bayes</b></div>
+           <div class="panel-footer"><b> Link par saber mais sobre o dataset: <a href="https://archive.ics.uci.edu/ml/datasets/balloons" target="_blank">https://archive.ics.uci.edu/ml/datasets/balloons</a> </b></div>
+
+           <!-- Corpo da div painel -->
+           <div class="panel-body">
+               <div id="form-container">
+                   <!-- Definição -->
+                   <form action="/form/" method="post">
+                       
+
+                       <div class="form-group input-group-sm">
+                           <!-- Campo para cor -->
+                           <label class="lb-sm">Cor</label>
+                           <select name="cor" class="form-control">
+                               <option value="0">--Selecione--</option>
+                               <option value="1">Amarelo</option>
+                               <option value="2">Roxo</option>
+                           </select>
+                       </div>
+
+                       <div class="form-group input-group-sm">
+
+                           <!-- Campo para saber se estica ou não o balão -->
+                           <label class="lb-sm">Tamanho</label>
+                           <select name="tamanho" class="form-control">
+                               <option value="0">--Selecione--</option>
+                               <option value="1">Pequeno</option>
+                               <option value="2">Grande</option>
+                           </select>
+                       </div>
+
+                       <div class="form-group input-group-sm">
+
+                           <!-- Campo para saber se o balão afunda ou não-->
+                           <label class="lb-sm">Estica ou Mergulha?</label>
+                           <select name="estita_mergulha" class="form-control">
+                               <option value="0">--Selecione--</option>
+                               <option value="1">Estica</option>
+                               <option value="2">Mergulha</option>
+                           </select>
+                       </div>
+
+                       <div class="form-group input-group-sm">
+                           <!-- Campo para saber se é adulto ou não -->
+                           <label class="lb-sm">Adulto ou Criança?</label>
+                           <select name="pessoa" class="form-control">
+                               <option value="0">--Selecione--</option>
+                               <option value="1">Adulto</option>
+                               <option value="2">Criança</option>
+                           </select>
+                       </div>
+
+                       <hr />
+
+                       <div class="form-group input-group-sm">
+                           <button type="submit" class="btn btn-sm btn-primary pull-right">Classificar</button>
+                       </div>
+
+                       <!-- Apresentação dos Resultados -->
+                       <div class="form-group">
+                           <label>Resultado:</label>
+                       </div>
+
+                     
+                       <!-- Apresentação da classificação -->
+                       <div class="form-group">
+                           <span class="lb-sm"><strong>Classificacao:</strong> {{classificacao}}</span>
+
+                       <!-- Apresentação do valor da probabilidade-->
+                       <div class="form-group">
+                           <span class="lb-sm"><strong>Probabilidade:</strong> {{probabilidade}}</span>
+
+                       </div>
+                    </form>
+                   </div>
+               </div>
+           </div>
+       </div>
+       
+   </body>
+
+
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</html>
