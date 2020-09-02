@@ -12,4 +12,4 @@ Atividades relacionadas ao MBA em MACHINE LEARNING COM INTERNET DAS COISAS (http
     ├── MOD-4-ATIVIDADES  - Conhecimento do bot "Zeus", desenvolvido no https://dialogflow.com
     ├── MOD-5-ATIVIDADES  - Atividades com as ferramentas rapidmainer, orange, e knime MOD-6-ATIVIDADES
     ├── MOD-6-ATIVIDADES  - Atividades da aula introdutoria de deep learning
-    ├── MOD-10-ATIVIDADES - Introducao a sistemas embarcados para IOT
+    ├── MOD-10-ATIVIDADES - Introducão a sistemas embarcados para IOT
