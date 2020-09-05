@@ -1,0 +1,45 @@
+<circuit speed="1000000" noLinStep="10" type="simulide_0.1" reactStep="50" noLinAcc="5" animate="0">
+ 
+Node-40: 
+<item labelrot="0" rotation="0" valLabely="0" valLabRot="0" id="Node-40" labelx="-16" Show_id="false" hflip="1" labely="-24" valLabelx="0" y="-308" objectName="Node-40" vflip="1" itemtype="Node" x="-452"/>
+ 
+Led-35: 
+<item valLabRot="0" MaxCurrent="0.029999999999999999" valLabely="0" vflip="1" rotation="-90" valLabelx="0" Resistance="0.59999999999999998" Threshold="2.3999999999999999" labelx="-16" labelrot="0" Grounded="false" Color="0" itemtype="Led" Show_id="false" x="-476" objectName="Led-35" id="Led-35" hflip="1" labely="-24" y="-284"/>
+ 
+Led-34: 
+<item valLabRot="0" MaxCurrent="0.029999999999999999" valLabely="0" vflip="1" rotation="-90" valLabelx="0" Resistance="0.59999999999999998" Threshold="2.3999999999999999" labelx="-16" labelrot="0" Grounded="false" Color="0" itemtype="Led" Show_id="false" x="-452" objectName="Led-34" id="Led-34" hflip="1" labely="-24" y="-284"/>
+ 
+Arduino Nano-5: 
+<item valLabRot="0" valLabely="0" vflip="1" rotation="0" valLabelx="0" Ser_Port="false" labelx="0" labelrot="0" Ser_Monitor="false" Mhz="16" itemtype="Arduino" Show_id="true" x="-428" objectName="Arduino Nano-5" Program="C:/Users/Arthur/AppData/Local/simulide/codeeditor/buildIno/4_Led_Button.ino.hex" id="Arduino Nano-5" hflip="1" labely="-20" y="-340"/>
+ 
+Push-4: 
+<item labelrot="0" rotation="0" valLabely="0" valLabRot="0" id="Push-4" labelx="-16" Show_id="false" hflip="1" labely="-24" valLabelx="0" y="-396" objectName="Push-4" vflip="1" itemtype="Push" x="-396"/>
+ 
+Connector-6: 
+<item valLabRot="0" valLabely="0" vflip="1" rotation="0" valLabelx="0" labelx="-16" startpinid="Arduino Nano-5-V5V" labelrot="0" pointList="-372,-300,-340,-300,-340,-396,-380,-396" endpinid="Push-4-rnod" enodeid="Circ_eNode-7" itemtype="Connector" Show_id="false" x="-372" objectName="Connector-6" id="Connector-6" hflip="1" labely="-24" y="-300"/>
+ 
+Connector-8: 
+<item valLabRot="0" valLabely="0" vflip="1" rotation="0" valLabelx="0" labelx="-16" startpinid="Push-4-lnod" labelrot="0" pointList="-412,-396,-500,-396,-500,-252,-420,-252" endpinid="Arduino Nano-5-PD7" enodeid="Circ_eNode-9" itemtype="Connector" Show_id="false" x="-412" objectName="Connector-8" id="Connector-8" hflip="1" labely="-24" y="-396"/>
+ 
+Connector-36: 
+<item valLabRot="0" valLabely="0" vflip="1" rotation="0" valLabelx="0" labelx="-16" startpinid="Arduino Nano-5-PD5" labelrot="0" pointList="-420,-268,-452,-268" endpinid="Led-34-lPin" enodeid="enode-36" itemtype="Connector" Show_id="false" x="-420" objectName="Connector-36" id="Connector-36" hflip="1" labely="-24" y="-268"/>
+ 
+Connector-37: 
+<item valLabRot="0" valLabely="0" vflip="1" rotation="0" valLabelx="0" labelx="-16" startpinid="Arduino Nano-5-PD6" labelrot="0" pointList="-420,-260,-476,-260,-476,-268" endpinid="Led-35-lPin" enodeid="enode-37" itemtype="Connector" Show_id="false" x="-420" objectName="Connector-37" id="Connector-37" hflip="1" labely="-24" y="-260"/>
+ 
+Connector-38: 
+<item valLabRot="0" valLabely="0" vflip="1" rotation="0" valLabelx="0" labelx="-16" startpinid="Arduino Nano-5-GND0" labelrot="0" pointList="-420,-300,-436,-300,-436,-308,-452,-308" endpinid="Node-40-0" enodeid="enode-39" itemtype="Connector" Show_id="false" x="-420" objectName="Connector-38" id="Connector-38" hflip="1" labely="-24" y="-300"/>
+ 
+Connector-39: 
+<item valLabRot="0" valLabely="0" vflip="1" rotation="0" valLabelx="0" labelx="-16" startpinid="Led-34-rPin" labelrot="0" pointList="-452,-300,-452,-308" endpinid="Node-40-1" enodeid="enode-39" itemtype="Connector" Show_id="false" x="-452" objectName="Connector-39" id="Connector-39" hflip="1" labely="-24" y="-300"/>
+ 
+Connector-41: 
+<item valLabRot="0" valLabely="0" vflip="1" rotation="0" valLabelx="0" labelx="-16" startpinid="Node-40-2" labelrot="0" pointList="-452,-308,-476,-308,-476,-300" endpinid="Led-35-rPin" enodeid="enode-39" itemtype="Connector" Show_id="false" x="-452" objectName="Connector-41" id="Connector-41" hflip="1" labely="-24" y="-308"/>
+ 
+PlotterWidget-18: 
+<item accessibleDescription="" mouseTracking="false" isActiveWindow="true" modal="false" windowModality="0" size="" enabled="true" maximized="false" maximumWidth="1000" windowOpacity="1" layoutDirection="0" itemtype="Plotter" MinVolt="-500" height="200" acceptDrops="false" fullScreen="false" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" childrenRect="" focus="false" windowIconText="" minimumHeight="200" autoFillBackground="false" objectName="PlotterWidget-18" frameSize="" sizeHint="" maximumSize="" windowIcon="" normalGeometry="" toolTip="" MaxVolt="500" width="200" minimumSize="" geometry="" frameGeometry="" minimumSizeHint="" minimumWidth="200" minimized="false" styleSheet="" cursor="" accessibleName="" rect="" windowFilePath="" updatesEnabled="true" sizeIncrement="" palette="" windowTitle="" inputMethodHints="0" windowModified="false" focusPolicy="0" sizePolicy="" contextMenuPolicy="1" pos="" childrenRegion="" maximumHeight="200" y="0" visible="false" toolTipDuration="-1" whatsThis="" baseSize="" x="0" statusTip="" locale=""/>
+ 
+SerialPortWidget-19: 
+<item accessibleDescription="" mouseTracking="false" isActiveWindow="true" modal="false" windowModality="0" size="" enabled="true" maximized="false" maximumWidth="450" windowOpacity="1" layoutDirection="0" itemtype="SerialPort" height="141" acceptDrops="false" fullScreen="false" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" childrenRect="" focus="false" SettingsProp=",0,3,0,0,0" windowIconText="" minimumHeight="0" autoFillBackground="false" objectName="SerialPortWidget-19" frameSize="" sizeHint="" maximumSize="" windowIcon="" normalGeometry="" toolTip="" width="313" minimumSize="" geometry="" frameGeometry="" minimumSizeHint="" minimumWidth="0" minimized="false" styleSheet="" cursor="" accessibleName="" rect="" windowFilePath="" updatesEnabled="true" sizeIncrement="" palette="" windowTitle="Settings" inputMethodHints="0" windowModified="false" focusPolicy="0" sizePolicy="" contextMenuPolicy="1" pos="" childrenRegion="" maximumHeight="170" y="0" visible="false" toolTipDuration="-1" whatsThis="" baseSize="" x="0" statusTip="" locale=""/>
+ 
+</circuit>
