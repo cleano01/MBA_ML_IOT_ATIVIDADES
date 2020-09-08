@@ -1,0 +1,36 @@
+<circuit noLinAcc="5" animate="0" type="simulide_0.1" reactStep="50" noLinStep="10" speed="1000000">
+ 
+Arduino Nano-4: 
+<item Ser_Port="false" y="-356" objectName="Arduino Nano-4" id="Arduino Nano-4" Ser_Monitor="false" Mhz="16" labelx="0" Show_id="true" itemtype="Arduino" Program="C:/Users/Arthur/AppData/Local/simulide/codeeditor/buildIno/8_IF.ino.hex" labelrot="0" labely="-20" rotation="0" x="-348" valLabRot="0" valLabelx="0" vflip="1" valLabely="0" hflip="1"/>
+ 
+Push-3: 
+<item hflip="1" valLabelx="0" x="-316" itemtype="Push" valLabely="0" id="Push-3" rotation="0" labelx="-16" labely="-24" labelrot="0" valLabRot="0" y="-436" objectName="Push-3" Show_id="false" vflip="1"/>
+ 
+Led-2: 
+<item Threshold="2.3999999999999999" y="-292" Color="0" objectName="Led-2" id="Led-2" Grounded="false" labelx="-16" Show_id="false" itemtype="Led" Resistance="0.59999999999999998" MaxCurrent="0.029999999999999999" labelrot="0" labely="-24" rotation="-90" x="-396" valLabRot="0" valLabelx="0" vflip="1" valLabely="0" hflip="1"/>
+ 
+Resistor-1: 
+<item y="-332" Unit=" O" objectName="Resistor-1" id="Resistor-1" labelx="-12" Show_id="false" Show_res="true" itemtype="Resistor" Resistance="280" labelrot="0" labely="-24" rotation="90" x="-396" valLabRot="0" valLabelx="-16" vflip="1" valLabely="6" hflip="1"/>
+ 
+Connector-5: 
+<item enodeid="Circ_eNode-6" y="-316" objectName="Connector-5" id="Connector-5" pointList="-292,-316,-260,-316,-260,-436,-300,-436" labelx="-16" startpinid="Arduino Nano-4-V5V" Show_id="false" itemtype="Connector" labelrot="0" labely="-24" rotation="0" x="-292" valLabRot="0" valLabelx="0" vflip="1" valLabely="0" hflip="1" endpinid="Push-3-rnod"/>
+ 
+Connector-7: 
+<item enodeid="Circ_eNode-8" y="-260" objectName="Connector-7" id="Connector-7" pointList="-340,-260,-420,-260,-420,-436,-332,-436" labelx="-16" startpinid="Arduino Nano-4-PB0" Show_id="false" itemtype="Connector" labelrot="0" labely="-24" rotation="0" x="-340" valLabRot="0" valLabelx="0" vflip="1" valLabely="0" hflip="1" endpinid="Push-3-lnod"/>
+ 
+Connector-9: 
+<item enodeid="Circ_eNode-10" y="-308" objectName="Connector-9" id="Connector-9" pointList="-396,-308,-396,-316" labelx="-16" startpinid="Led-2-rPin" Show_id="false" itemtype="Connector" labelrot="0" labely="-24" rotation="0" x="-396" valLabRot="0" valLabelx="0" vflip="1" valLabely="0" hflip="1" endpinid="Resistor-1-rPin"/>
+ 
+Connector-11: 
+<item enodeid="Circ_eNode-12" y="-276" objectName="Connector-11" id="Connector-11" pointList="-396,-276,-396,-268,-340,-268" labelx="-16" startpinid="Led-2-lPin" Show_id="false" itemtype="Connector" labelrot="0" labely="-24" rotation="0" x="-396" valLabRot="0" valLabelx="0" vflip="1" valLabely="0" hflip="1" endpinid="Arduino Nano-4-PD7"/>
+ 
+Connector-13: 
+<item enodeid="Circ_eNode-14" y="-316" objectName="Connector-13" id="Connector-13" pointList="-340,-316,-372,-316,-372,-348,-396,-348" labelx="-16" startpinid="Arduino Nano-4-GND0" Show_id="false" itemtype="Connector" labelrot="0" labely="-24" rotation="0" x="-340" valLabRot="0" valLabelx="0" vflip="1" valLabely="0" hflip="1" endpinid="Resistor-1-lPin"/>
+ 
+PlotterWidget-15: 
+<item palette="" sizeIncrement="" windowIcon="" windowTitle="" statusTip="" windowFilePath="" modal="false" windowOpacity="1" frameSize="" visible="false" MaxVolt="500" maximumHeight="200" normalGeometry="" enabled="true" accessibleDescription="" windowIconText="" minimumSize="" frameGeometry="" locale="" rect="" childrenRect="" childrenRegion="" minimized="false" pos="" toolTip="" sizeHint="" windowModified="false" width="200" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" x="0" size="" inputMethodHints="0" maximumWidth="1000" autoFillBackground="false" windowModality="0" height="200" minimumWidth="200" baseSize="" maximumSize="" accessibleName="" focusPolicy="0" whatsThis="" focus="false" updatesEnabled="true" contextMenuPolicy="1" minimumHeight="200" isActiveWindow="true" toolTipDuration="-1" acceptDrops="false" objectName="PlotterWidget-15" styleSheet="" sizePolicy="" minimumSizeHint="" maximized="false" fullScreen="false" y="0" cursor="" layoutDirection="0" itemtype="Plotter" MinVolt="-500" mouseTracking="false" geometry=""/>
+ 
+SerialPortWidget-16: 
+<item palette="" sizeIncrement="" windowIcon="" windowTitle="Settings" statusTip="" windowFilePath="" modal="false" windowOpacity="1" frameSize="" visible="false" maximumHeight="170" normalGeometry="" enabled="true" accessibleDescription="" windowIconText="" minimumSize="" frameGeometry="" locale="" rect="" childrenRect="" childrenRegion="" minimized="false" pos="" toolTip="" SettingsProp=",0,3,0,0,0" sizeHint="" windowModified="false" width="313" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" x="0" size="" inputMethodHints="0" maximumWidth="450" autoFillBackground="false" windowModality="0" height="141" minimumWidth="0" baseSize="" maximumSize="" accessibleName="" focusPolicy="0" whatsThis="" focus="false" updatesEnabled="true" contextMenuPolicy="1" minimumHeight="0" isActiveWindow="true" toolTipDuration="-1" acceptDrops="false" objectName="SerialPortWidget-16" styleSheet="" sizePolicy="" minimumSizeHint="" maximized="false" fullScreen="false" y="0" cursor="" layoutDirection="0" itemtype="SerialPort" mouseTracking="false" geometry=""/>
+ 
+</circuit>
