@@ -1,0 +1,81 @@
+<circuit noLinAcc="5" speed="1000000" noLinStep="10" reactStep="50" type="simulide_0.1" animate="0">
+ 
+Arduino Nano-10: 
+<item hflip="1" labelrot="0" Show_id="true" Ser_Port="false" labely="-20" itemtype="Arduino" rotation="0" labelx="0" vflip="1" id="Arduino Nano-10" Mhz="16" valLabelx="0" valLabely="0" y="-356" Ser_Monitor="true" Program="C:/Users/Arthur/AppData/Local/simulide/codeeditor/buildIno/10_ELSE_IF.ino.hex" x="-348" valLabRot="0" objectName="Arduino Nano-10"/>
+ 
+Led-9: 
+<item hflip="1" labelrot="0" Show_id="false" labely="-24" itemtype="Led" Threshold="2.3999999999999999" rotation="-90" Resistance="0.59999999999999998" labelx="-16" vflip="1" MaxCurrent="0.029999999999999999" id="Led-9" valLabelx="0" valLabely="0" y="-284" x="-444" valLabRot="0" Grounded="false" objectName="Led-9" Color="0"/>
+ 
+Resistor-8: 
+<item hflip="1" labelrot="0" Show_id="false" labely="-24" itemtype="Resistor" rotation="90" Resistance="280" labelx="-12" vflip="1" id="Resistor-8" Unit=" O" valLabelx="-16" valLabely="6" y="-324" Show_res="true" x="-444" valLabRot="0" objectName="Resistor-8"/>
+ 
+Led-7: 
+<item hflip="1" labelrot="0" Show_id="false" labely="-24" itemtype="Led" Threshold="2.3999999999999999" rotation="-90" Resistance="0.59999999999999998" labelx="-16" vflip="1" MaxCurrent="0.029999999999999999" id="Led-7" valLabelx="0" valLabely="0" y="-284" x="-412" valLabRot="0" Grounded="false" objectName="Led-7" Color="0"/>
+ 
+Resistor-6: 
+<item hflip="1" labelrot="0" Show_id="false" labely="-24" itemtype="Resistor" rotation="90" Resistance="280" labelx="-12" vflip="1" id="Resistor-6" Unit=" O" valLabelx="-16" valLabely="6" y="-324" Show_res="true" x="-412" valLabRot="0" objectName="Resistor-6"/>
+ 
+Led-5: 
+<item hflip="1" labelrot="0" Show_id="false" labely="-24" itemtype="Led" Threshold="2.3999999999999999" rotation="-90" Resistance="0.59999999999999998" labelx="-16" vflip="1" MaxCurrent="0.029999999999999999" id="Led-5" valLabelx="0" valLabely="0" y="-284" x="-380" valLabRot="0" Grounded="false" objectName="Led-5" Color="0"/>
+ 
+Resistor-4: 
+<item hflip="1" labelrot="0" Show_id="false" labely="-24" itemtype="Resistor" rotation="90" Resistance="280" labelx="-12" vflip="1" id="Resistor-4" Unit=" O" valLabelx="-16" valLabely="6" y="-324" Show_res="true" x="-380" valLabRot="0" objectName="Resistor-4"/>
+ 
+Node-3: 
+<item x="-412" labelx="-16" valLabRot="0" labely="-24" itemtype="Node" id="Node-3" labelrot="0" y="-356" valLabelx="0" vflip="1" rotation="0" valLabely="0" hflip="1" objectName="Node-3" Show_id="false"/>
+ 
+Node-2: 
+<item x="-380" labelx="-16" valLabRot="0" labely="-24" itemtype="Node" id="Node-2" labelrot="0" y="-356" valLabelx="0" vflip="1" rotation="0" valLabely="0" hflip="1" objectName="Node-2" Show_id="false"/>
+ 
+Potentiometer-1: 
+<item hflip="1" labelrot="0" Show_id="false" labely="-24" itemtype="Potentiometer" rotation="0" Resistance="1" labelx="-16" vflip="1" id="Potentiometer-1" Unit=" kO" valLabelx="10" valLabely="-20" y="-316" Show_res="true" x="-228" valLabRot="0" objectName="Potentiometer-1" Value_Ohm="907"/>
+ 
+Connector-11: 
+<item hflip="1" labelrot="0" Show_id="false" labely="-24" itemtype="Connector" rotation="0" enodeid="Circ_eNode-12" pointList="-444,-300,-444,-308" startpinid="Led-9-rPin" labelx="-16" vflip="1" id="Connector-11" valLabelx="0" valLabely="0" y="-300" endpinid="Resistor-8-rPin" x="-444" valLabRot="0" objectName="Connector-11"/>
+ 
+Connector-13: 
+<item hflip="1" labelrot="0" Show_id="false" labely="-24" itemtype="Connector" rotation="0" enodeid="Circ_eNode-14" pointList="-444,-268,-444,-252,-340,-252" startpinid="Led-9-lPin" labelx="-16" vflip="1" id="Connector-13" valLabelx="0" valLabely="0" y="-268" endpinid="Arduino Nano-10-PB1" x="-444" valLabRot="0" objectName="Connector-13"/>
+ 
+Connector-15: 
+<item hflip="1" labelrot="0" Show_id="false" labely="-24" itemtype="Connector" rotation="0" enodeid="Circ_eNode-16" pointList="-412,-300,-412,-308" startpinid="Led-7-rPin" labelx="-16" vflip="1" id="Connector-15" valLabelx="0" valLabely="0" y="-300" endpinid="Resistor-6-rPin" x="-412" valLabRot="0" objectName="Connector-15"/>
+ 
+Connector-17: 
+<item hflip="1" labelrot="0" Show_id="false" labely="-24" itemtype="Connector" rotation="0" enodeid="Circ_eNode-18" pointList="-380,-300,-380,-308" startpinid="Led-5-rPin" labelx="-16" vflip="1" id="Connector-17" valLabelx="0" valLabely="0" y="-300" endpinid="Resistor-4-rPin" x="-380" valLabRot="0" objectName="Connector-17"/>
+ 
+Connector-19: 
+<item hflip="1" labelrot="0" Show_id="false" labely="-24" itemtype="Connector" rotation="0" enodeid="Circ_eNode-20" pointList="-340,-260,-412,-260,-412,-268" startpinid="Arduino Nano-10-PB0" labelx="-16" vflip="1" id="Connector-19" valLabelx="0" valLabely="0" y="-260" endpinid="Led-7-lPin" x="-340" valLabRot="0" objectName="Connector-19"/>
+ 
+Connector-21: 
+<item hflip="1" labelrot="0" Show_id="false" labely="-24" itemtype="Connector" rotation="0" enodeid="Circ_eNode-22" pointList="-380,-268,-340,-268" startpinid="Led-5-lPin" labelx="-16" vflip="1" id="Connector-21" valLabelx="0" valLabely="0" y="-268" endpinid="Arduino Nano-10-PD7" x="-380" valLabRot="0" objectName="Connector-21"/>
+ 
+Connector-23: 
+<item hflip="1" labelrot="0" Show_id="false" labely="-24" itemtype="Connector" rotation="0" enodeid="Circ_eNode-24" pointList="-412,-340,-412,-356" startpinid="Resistor-6-lPin" labelx="-16" vflip="1" id="Connector-23" valLabelx="0" valLabely="0" y="-340" endpinid="Node-3-1" x="-412" valLabRot="0" objectName="Connector-23"/>
+ 
+Connector-25: 
+<item hflip="1" labelrot="0" Show_id="false" labely="-24" itemtype="Connector" rotation="0" enodeid="Circ_eNode-24" pointList="-412,-356,-444,-356,-444,-340" startpinid="Node-3-2" labelx="-16" vflip="1" id="Connector-25" valLabelx="0" valLabely="0" y="-356" endpinid="Resistor-8-lPin" x="-412" valLabRot="0" objectName="Connector-25"/>
+ 
+Connector-26: 
+<item hflip="1" labelrot="0" Show_id="false" labely="-24" itemtype="Connector" rotation="0" enodeid="Circ_eNode-24" pointList="-380,-340,-380,-356" startpinid="Resistor-4-lPin" labelx="-16" vflip="1" id="Connector-26" valLabelx="0" valLabely="0" y="-340" endpinid="Node-2-1" x="-380" valLabRot="0" objectName="Connector-26"/>
+ 
+Connector-27: 
+<item hflip="1" labelrot="0" Show_id="false" labely="-24" itemtype="Connector" rotation="0" enodeid="Circ_eNode-24" pointList="-380,-356,-412,-356" startpinid="Node-2-2" labelx="-16" vflip="1" id="Connector-27" valLabelx="0" valLabely="0" y="-356" endpinid="Node-3-0" x="-380" valLabRot="0" objectName="Connector-27"/>
+ 
+Connector-28: 
+<item hflip="1" labelrot="0" Show_id="false" labely="-24" itemtype="Connector" rotation="0" enodeid="Circ_eNode-24" pointList="-340,-316,-364,-316,-364,-356,-380,-356" startpinid="Arduino Nano-10-GND0" labelx="-16" vflip="1" id="Connector-28" valLabelx="0" valLabely="0" y="-316" endpinid="Node-2-0" x="-340" valLabRot="0" objectName="Connector-28"/>
+ 
+Connector-29: 
+<item hflip="1" labelrot="0" Show_id="false" labely="-24" itemtype="Connector" rotation="0" enodeid="Circ_eNode-30" pointList="-228,-300,-228,-252,-292,-252" startpinid="Potentiometer-1-PinM" labelx="-16" vflip="1" id="Connector-29" valLabelx="0" valLabely="0" y="-300" endpinid="Arduino Nano-10-PC0" x="-228" valLabRot="0" objectName="Connector-29"/>
+ 
+Connector-31: 
+<item hflip="1" labelrot="0" Show_id="false" labely="-24" itemtype="Connector" rotation="0" enodeid="Circ_eNode-32" pointList="-292,-316,-244,-316" startpinid="Arduino Nano-10-V5V" labelx="-16" vflip="1" id="Connector-31" valLabelx="0" valLabely="0" y="-316" endpinid="Potentiometer-1-PinA" x="-292" valLabRot="0" objectName="Connector-31"/>
+ 
+Connector-33: 
+<item hflip="1" labelrot="0" Show_id="false" labely="-24" itemtype="Connector" rotation="0" enodeid="Circ_eNode-34" pointList="-212,-316,-180,-316,-180,-348,-268,-348,-268,-332,-292,-332" startpinid="Potentiometer-1-PinB" labelx="-16" vflip="1" id="Connector-33" valLabelx="0" valLabely="0" y="-316" endpinid="Arduino Nano-10-GND1" x="-212" valLabRot="0" objectName="Connector-33"/>
+ 
+PlotterWidget-35: 
+<item frameGeometry="" childrenRect="" focus="false" palette="" windowModality="0" updatesEnabled="true" width="200" autoFillBackground="false" modal="false" toolTip="" windowModified="false" windowFilePath="" whatsThis="" minimumWidth="200" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" pos="" layoutDirection="0" itemtype="Plotter" minimized="false" y="0" isActiveWindow="true" rect="" sizePolicy="" maximumWidth="1000" toolTipDuration="-1" accessibleDescription="" mouseTracking="false" statusTip="" baseSize="" sizeIncrement="" locale="" MaxVolt="500" maximumHeight="200" styleSheet="" MinVolt="-500" focusPolicy="0" accessibleName="" height="200" childrenRegion="" inputMethodHints="0" maximized="false" windowIcon="" contextMenuPolicy="1" windowIconText="" visible="false" sizeHint="" enabled="true" size="" minimumSize="" normalGeometry="" cursor="" fullScreen="false" minimumSizeHint="" windowTitle="" objectName="PlotterWidget-35" frameSize="" minimumHeight="200" acceptDrops="false" maximumSize="" x="0" windowOpacity="1" geometry=""/>
+ 
+SerialPortWidget-36: 
+<item frameGeometry="" childrenRect="" focus="false" palette="" windowModality="0" updatesEnabled="true" width="313" autoFillBackground="false" modal="false" toolTip="" windowModified="false" windowFilePath="" SettingsProp=",0,3,0,0,0" whatsThis="" minimumWidth="0" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" pos="" layoutDirection="0" itemtype="SerialPort" minimized="false" y="0" isActiveWindow="true" rect="" sizePolicy="" maximumWidth="450" toolTipDuration="-1" accessibleDescription="" mouseTracking="false" statusTip="" baseSize="" sizeIncrement="" locale="" maximumHeight="170" styleSheet="" focusPolicy="0" accessibleName="" height="141" childrenRegion="" inputMethodHints="0" maximized="false" windowIcon="" contextMenuPolicy="1" windowIconText="" visible="false" sizeHint="" enabled="true" size="" minimumSize="" normalGeometry="" cursor="" fullScreen="false" minimumSizeHint="" windowTitle="Settings" objectName="SerialPortWidget-36" frameSize="" minimumHeight="0" acceptDrops="false" maximumSize="" x="0" windowOpacity="1" geometry=""/>
+ 
+</circuit>
