@@ -1,0 +1,42 @@
+<circuit noLinStep="10" speed="1000000" type="simulide_0.1" animate="0" noLinAcc="5" reactStep="50">
+ 
+Push-22: 
+<item id="Push-22" valLabelx="0" labely="-24" Show_id="false" y="-180" objectName="Push-22" valLabely="0" labelx="-16" labelrot="0" itemtype="Push" rotation="90" valLabRot="0" x="-124" hflip="1" vflip="1"/>
+ 
+Arduino Nano-15: 
+<item valLabely="0" labelrot="0" id="Arduino Nano-15" itemtype="Arduino" Program="C:/Users/Arthur/AppData/Local/simulide/codeeditor/buildIno/19_Liquid_Crystal_2_16.ino.hex" labely="-20" labelx="0" rotation="0" hflip="1" Ser_Monitor="false" vflip="1" Ser_Port="false" Show_id="true" valLabRot="0" Mhz="16" y="-260" x="-228" objectName="Arduino Nano-15" valLabelx="0"/>
+ 
+Hd44780-1: 
+<item id="Hd44780" valLabelx="0" labely="-89" Cols="16" Show_id="true" y="-316" objectName="Hd44780-1" valLabely="0" labelx="62" labelrot="0" Rows="2" itemtype="Hd44780" rotation="0" valLabRot="0" x="-372" hflip="1" vflip="1"/>
+ 
+Connector-16: 
+<item valLabely="0" labelrot="0" id="Connector-16" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Arduino Nano-15-PD2" pointList="-220,-212,-276,-212,-276,-308" y="-212" x="-220" endpinid="Hd44780-1-dataPin7" enodeid="enode-16" objectName="Connector-16" valLabelx="0"/>
+ 
+Connector-17: 
+<item valLabely="0" labelrot="0" id="Connector-17" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Arduino Nano-15-PD3" pointList="-220,-204,-284,-204,-284,-308" y="-204" x="-220" endpinid="Hd44780-1-dataPin6" enodeid="enode-17" objectName="Connector-17" valLabelx="0"/>
+ 
+Connector-18: 
+<item valLabely="0" labelrot="0" id="Connector-18" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Arduino Nano-15-PD4" pointList="-220,-196,-292,-196,-292,-308" y="-196" x="-220" endpinid="Hd44780-1-dataPin5" enodeid="enode-18" objectName="Connector-18" valLabelx="0"/>
+ 
+Connector-19: 
+<item valLabely="0" labelrot="0" id="Connector-19" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Arduino Nano-15-PD5" pointList="-220,-188,-300,-188,-300,-308" y="-188" x="-220" endpinid="Hd44780-1-dataPin4" enodeid="enode-19" objectName="Connector-19" valLabelx="0"/>
+ 
+Connector-20: 
+<item valLabely="0" labelrot="0" id="Connector-20" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Arduino Nano-15-PB3" pointList="-220,-140,-340,-140,-340,-308" y="-140" x="-220" endpinid="Hd44780-1-PinEn" enodeid="enode-20" objectName="Connector-20" valLabelx="0"/>
+ 
+Connector-21: 
+<item valLabely="0" labelrot="0" id="Connector-21" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Arduino Nano-15-PB4" pointList="-220,-132,-356,-132,-356,-308" y="-132" x="-220" endpinid="Hd44780-1-PinRS" enodeid="enode-21" objectName="Connector-21" valLabelx="0"/>
+ 
+Connector-24: 
+<item valLabely="0" labelrot="0" id="Connector-24" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Push-22-rnod" pointList="-124,-164,-124,-132,-172,-132" y="-164" x="-124" endpinid="Arduino Nano-15-PB5" enodeid="enode-24" objectName="Connector-24" valLabelx="0"/>
+ 
+Connector-25: 
+<item valLabely="0" labelrot="0" id="Connector-25" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Push-22-lnod" pointList="-124,-196,-124,-220,-172,-220" y="-196" x="-124" endpinid="Arduino Nano-15-V5V" enodeid="enode-25" objectName="Connector-25" valLabelx="0"/>
+ 
+PlotterWidget-110: 
+<item modal="false" size="" statusTip="" cursor="" layoutDirection="0" objectName="PlotterWidget-110" windowIcon="" maximumSize="" maximumWidth="1000" minimumHeight="200" focus="false" frameSize="" inputMethodHints="0" childrenRegion="" minimumSize="" sizeHint="" windowTitle="" enabled="true" sizeIncrement="" x="0" autoFillBackground="false" pos="" childrenRect="" whatsThis="" height="200" windowFilePath="" contextMenuPolicy="1" acceptDrops="false" windowIconText="" toolTip="" y="546" sizePolicy="" isActiveWindow="true" mouseTracking="false" maximized="false" MaxVolt="500" baseSize="" minimized="false" normalGeometry="" MinVolt="0" focusPolicy="0" frameGeometry="" palette="" rect="" minimumSizeHint="" locale="" styleSheet="" toolTipDuration="-1" windowOpacity="1" accessibleDescription="" maximumHeight="200" visible="false" fullScreen="false" windowModified="false" geometry="" width="565" updatesEnabled="true" accessibleName="" itemtype="Plotter" windowModality="0" minimumWidth="200" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+ 
+SerialPortWidget-111: 
+<item modal="false" size="" statusTip="" SettingsProp="ttyS0,0,3,0,0,0" cursor="" layoutDirection="0" objectName="SerialPortWidget-111" windowIcon="" maximumSize="" maximumWidth="450" minimumHeight="0" focus="false" frameSize="" inputMethodHints="0" childrenRegion="" minimumSize="" sizeHint="" windowTitle="Configuracion" enabled="true" sizeIncrement="" x="0" autoFillBackground="false" pos="" childrenRect="" whatsThis="" height="141" windowFilePath="" contextMenuPolicy="1" acceptDrops="false" windowIconText="" toolTip="" y="0" sizePolicy="" isActiveWindow="true" mouseTracking="false" maximized="false" baseSize="" minimized="false" normalGeometry="" focusPolicy="0" frameGeometry="" palette="" rect="" minimumSizeHint="" locale="" styleSheet="" toolTipDuration="-1" windowOpacity="1" accessibleDescription="" maximumHeight="170" visible="false" fullScreen="false" windowModified="false" geometry="" width="313" updatesEnabled="true" accessibleName="" itemtype="SerialPort" windowModality="0" minimumWidth="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+ 
+</circuit>
