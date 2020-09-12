@@ -1,0 +1,147 @@
+<circuit noLinStep="10" speed="1000000" type="simulide_0.1" animate="0" noLinAcc="5" reactStep="50">
+ 
+Ground-56: 
+<item id="Ground-56" valLabelx="0" labely="-24" Show_id="false" y="4" objectName="Ground-56" valLabely="0" labelx="-16" labelrot="0" itemtype="Ground" rotation="0" valLabRot="0" x="212" hflip="1" vflip="1"/>
+ 
+Seven Segment-55: 
+<item valLabely="0" labelrot="0" Vertical_Pins="false" id="Seven Segment-55" itemtype="Seven Segment" NumDisplays="1" labely="-24" Resistance="1" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" Threshold="2.3999999999999999" CommonCathode="true" y="-84" x="196" MaxCurrent="0.02" objectName="Seven Segment-55" valLabelx="0" Color="0"/>
+ 
+Fixed Voltage-54: 
+<item valLabely="8" labelrot="0" id="Fixed Voltage-54" Voltage="5" itemtype="Fixed Voltage" labely="-24" labelx="-64" rotation="0" hflip="1" vflip="1" Show_Volt="true" Show_id="false" valLabRot="0" Unit=" V" y="52" x="76" objectName="Fixed Voltage-54" valLabelx="-16"/>
+ 
+Fixed Voltage-53: 
+<item valLabely="8" labelrot="0" id="Fixed Voltage-53" Voltage="5" itemtype="Fixed Voltage" labely="-24" labelx="-64" rotation="0" hflip="1" vflip="1" Show_Volt="true" Show_id="false" valLabRot="0" Unit=" V" y="20" x="76" objectName="Fixed Voltage-53" valLabelx="-16"/>
+ 
+Fixed Voltage-52: 
+<item valLabely="8" labelrot="0" id="Fixed Voltage-52" Voltage="5" itemtype="Fixed Voltage" labely="-24" labelx="-64" rotation="0" hflip="1" vflip="1" Show_Volt="true" Show_id="false" valLabRot="0" Unit=" V" y="-12" x="76" objectName="Fixed Voltage-52" valLabelx="-16"/>
+ 
+Fixed Voltage-51: 
+<item valLabely="8" labelrot="0" id="Fixed Voltage-51" Voltage="5" itemtype="Fixed Voltage" labely="-24" labelx="-64" rotation="0" hflip="1" vflip="1" Show_Volt="true" Show_id="false" valLabRot="0" Unit=" V" y="-44" x="76" objectName="Fixed Voltage-51" valLabelx="-16"/>
+ 
+Fixed Voltage-50: 
+<item valLabely="8" labelrot="0" id="Fixed Voltage-50" Voltage="5" itemtype="Fixed Voltage" labely="-24" labelx="-64" rotation="0" hflip="1" vflip="1" Show_Volt="true" Show_id="false" valLabRot="0" Unit=" V" y="-76" x="76" objectName="Fixed Voltage-50" valLabelx="-16"/>
+ 
+Fixed Voltage-49: 
+<item valLabely="8" labelrot="0" id="Fixed Voltage-49" Voltage="5" itemtype="Fixed Voltage" labely="-24" labelx="-64" rotation="0" hflip="1" vflip="1" Show_Volt="true" Show_id="false" valLabRot="0" Unit=" V" y="-108" x="76" objectName="Fixed Voltage-49" valLabelx="-16"/>
+ 
+Resistor-12: 
+<item valLabely="6" labelrot="0" id="Resistor-12" itemtype="Resistor" labely="-24" Resistance="100" labelx="-12" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" Unit=" O" Show_res="true" y="-28" x="-116" objectName="Resistor-12" valLabelx="-16"/>
+ 
+Resistor-11: 
+<item valLabely="6" labelrot="0" id="Resistor-11" itemtype="Resistor" labely="-24" Resistance="100" labelx="-12" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" Unit=" O" Show_res="true" y="-4" x="-116" objectName="Resistor-11" valLabelx="-16"/>
+ 
+Seven Segment-10: 
+<item valLabely="0" labelrot="0" Vertical_Pins="false" id="Seven Segment-10" itemtype="Seven Segment" NumDisplays="1" labely="-24" Resistance="1" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" Threshold="2.3999999999999999" CommonCathode="true" y="-84" x="-44" MaxCurrent="0.02" objectName="Seven Segment-10" valLabelx="0" Color="0"/>
+ 
+Arduino Nano-9: 
+<item valLabely="0" labelrot="0" id="Arduino Nano-9" itemtype="Arduino" Program="C:/Users/Arthur/AppData/Local/simulide/codeeditor/buildIno/18_Display7S.ino.hex" labely="-20" labelx="0" rotation="0" hflip="1" Ser_Monitor="true" vflip="1" Ser_Port="false" Show_id="true" valLabRot="0" Mhz="16" y="36" x="-132" objectName="Arduino Nano-9" valLabelx="0"/>
+ 
+Resistor-8: 
+<item valLabely="6" labelrot="0" id="Resistor-8" itemtype="Resistor" labely="-24" Resistance="100" labelx="-12" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" Unit=" O" Show_res="true" y="-52" x="-116" objectName="Resistor-8" valLabelx="-16"/>
+ 
+Resistor-7: 
+<item valLabely="6" labelrot="0" id="Resistor-7" itemtype="Resistor" labely="-24" Resistance="100" labelx="-12" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" Unit=" O" Show_res="true" y="-76" x="-116" objectName="Resistor-7" valLabelx="-16"/>
+ 
+Resistor-6: 
+<item valLabely="6" labelrot="0" id="Resistor-6" itemtype="Resistor" labely="-24" Resistance="100" labelx="-12" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" Unit=" O" Show_res="true" y="-100" x="-116" objectName="Resistor-6" valLabelx="-16"/>
+ 
+Resistor-5: 
+<item valLabely="6" labelrot="0" id="Resistor-5" itemtype="Resistor" labely="-24" Resistance="100" labelx="-12" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" Unit=" O" Show_res="true" y="-124" x="-116" objectName="Resistor-5" valLabelx="-16"/>
+ 
+Resistor-4: 
+<item valLabely="6" labelrot="0" id="Resistor-4" itemtype="Resistor" labely="-24" Resistance="100" labelx="-12" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" Unit=" O" Show_res="true" y="-148" x="-116" objectName="Resistor-4" valLabelx="-16"/>
+ 
+Resistor-3: 
+<item valLabely="6" labelrot="0" id="Resistor-3" itemtype="Resistor" labely="-24" Resistance="100" labelx="-12" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" Unit=" O" Show_res="true" y="-172" x="-116" objectName="Resistor-3" valLabelx="-16"/>
+ 
+Fixed Voltage-2: 
+<item valLabely="8" labelrot="0" id="Fixed Voltage-2" Voltage="5" itemtype="Fixed Voltage" labely="-24" labelx="-64" rotation="0" hflip="1" vflip="1" Show_Volt="true" Show_id="false" valLabRot="0" Unit=" V" y="-172" x="76" objectName="Fixed Voltage-2" valLabelx="-16"/>
+ 
+Fixed Voltage-1: 
+<item valLabely="8" labelrot="0" id="Fixed Voltage-1" Voltage="5" itemtype="Fixed Voltage" labely="-24" labelx="-64" rotation="0" hflip="1" vflip="1" Show_Volt="true" Show_id="false" valLabRot="0" Unit=" V" y="-140" x="76" objectName="Fixed Voltage-1" valLabelx="-16"/>
+ 
+Connector-13: 
+<item valLabely="0" labelrot="0" id="Connector-13" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Arduino Nano-9-GND1" pointList="-76,60,-36,60,-36,-52" y="60" x="-76" endpinid="Seven Segment-10-pin_commona" enodeid="Circ_eNode-14" objectName="Connector-13" valLabelx="0"/>
+ 
+Connector-15: 
+<item valLabely="0" labelrot="0" id="Connector-15" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Resistor-11-rPin" pointList="-100,-4,-52,-4,-52,-52" y="-4" x="-100" endpinid="Seven Segment-10-pin_dot" enodeid="Circ_eNode-16" objectName="Connector-15" valLabelx="0"/>
+ 
+Connector-17: 
+<item valLabely="0" labelrot="0" id="Connector-17" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Seven Segment-10-pin_g" pointList="-68,-60,-68,-28,-100,-28" y="-60" x="-68" endpinid="Resistor-12-rPin" enodeid="Circ_eNode-18" objectName="Connector-17" valLabelx="0"/>
+ 
+Connector-19: 
+<item valLabely="0" labelrot="0" id="Connector-19" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Resistor-8-rPin" pointList="-100,-52,-92,-52,-92,-68,-68,-68" y="-52" x="-100" endpinid="Seven Segment-10-pin_f" enodeid="Circ_eNode-20" objectName="Connector-19" valLabelx="0"/>
+ 
+Connector-21: 
+<item valLabely="0" labelrot="0" id="Connector-21" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Resistor-7-rPin" pointList="-100,-76,-68,-76" y="-76" x="-100" endpinid="Seven Segment-10-pin_e" enodeid="Circ_eNode-22" objectName="Connector-21" valLabelx="0"/>
+ 
+Connector-23: 
+<item valLabely="0" labelrot="0" id="Connector-23" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Resistor-6-rPin" pointList="-100,-100,-100,-84,-68,-84" y="-100" x="-100" endpinid="Seven Segment-10-pin_d" enodeid="Circ_eNode-24" objectName="Connector-23" valLabelx="0"/>
+ 
+Connector-25: 
+<item valLabely="0" labelrot="0" id="Connector-25" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Resistor-5-rPin" pointList="-100,-124,-92,-124,-92,-92,-68,-92" y="-124" x="-100" endpinid="Seven Segment-10-pin_c" enodeid="Circ_eNode-26" objectName="Connector-25" valLabelx="0"/>
+ 
+Connector-27: 
+<item valLabely="0" labelrot="0" id="Connector-27" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Resistor-4-rPin" pointList="-100,-148,-84,-148,-84,-100,-68,-100" y="-148" x="-100" endpinid="Seven Segment-10-pin_b" enodeid="Circ_eNode-28" objectName="Connector-27" valLabelx="0"/>
+ 
+Connector-29: 
+<item valLabely="0" labelrot="0" id="Connector-29" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Resistor-3-rPin" pointList="-100,-172,-68,-172,-68,-108" y="-172" x="-100" endpinid="Seven Segment-10-pin_a" enodeid="Circ_eNode-30" objectName="Connector-29" valLabelx="0"/>
+ 
+Connector-31: 
+<item valLabely="0" labelrot="0" id="Connector-31" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Arduino Nano-9-PD2" pointList="-124,84,-140,84,-140,-4,-132,-4" y="84" x="-124" endpinid="Resistor-11-lPin" enodeid="Circ_eNode-32" objectName="Connector-31" valLabelx="0"/>
+ 
+Connector-33: 
+<item valLabely="0" labelrot="0" id="Connector-33" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Arduino Nano-9-PD3" pointList="-124,92,-148,92,-148,-28,-132,-28" y="92" x="-124" endpinid="Resistor-12-lPin" enodeid="Circ_eNode-34" objectName="Connector-33" valLabelx="0"/>
+ 
+Connector-35: 
+<item valLabely="0" labelrot="0" id="Connector-35" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Arduino Nano-9-PD4" pointList="-124,100,-156,100,-156,-52,-132,-52" y="100" x="-124" endpinid="Resistor-8-lPin" enodeid="Circ_eNode-36" objectName="Connector-35" valLabelx="0"/>
+ 
+Connector-37: 
+<item valLabely="0" labelrot="0" id="Connector-37" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Arduino Nano-9-PD5" pointList="-124,108,-164,108,-164,-76,-132,-76" y="108" x="-124" endpinid="Resistor-7-lPin" enodeid="Circ_eNode-38" objectName="Connector-37" valLabelx="0"/>
+ 
+Connector-39: 
+<item valLabely="0" labelrot="0" id="Connector-39" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Arduino Nano-9-PD6" pointList="-124,116,-172,116,-172,-100,-132,-100" y="116" x="-124" endpinid="Resistor-6-lPin" enodeid="Circ_eNode-40" objectName="Connector-39" valLabelx="0"/>
+ 
+Connector-41: 
+<item valLabely="0" labelrot="0" id="Connector-41" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Resistor-5-lPin" pointList="-132,-124,-180,-124,-180,124,-124,124" y="-124" x="-132" endpinid="Arduino Nano-9-PD7" enodeid="Circ_eNode-42" objectName="Connector-41" valLabelx="0"/>
+ 
+Connector-43: 
+<item valLabely="0" labelrot="0" id="Connector-43" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Arduino Nano-9-PB0" pointList="-124,132,-188,132,-188,-148,-132,-148" y="132" x="-124" endpinid="Resistor-4-lPin" enodeid="Circ_eNode-44" objectName="Connector-43" valLabelx="0"/>
+ 
+Connector-45: 
+<item valLabely="0" labelrot="0" id="Connector-45" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Arduino Nano-9-PB1" pointList="-124,140,-196,140,-196,-172,-132,-172" y="140" x="-124" endpinid="Resistor-3-lPin" enodeid="Circ_eNode-46" objectName="Connector-45" valLabelx="0"/>
+ 
+Connector-57: 
+<item valLabely="0" labelrot="0" id="Connector-57" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Ground-56-Gnd" pointList="212,-12,212,-52,204,-52" y="-12" x="212" endpinid="Seven Segment-55-pin_commona" enodeid="enode-57" objectName="Connector-57" valLabelx="0"/>
+ 
+Connector-58: 
+<item valLabely="0" labelrot="0" id="Connector-58" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Fixed Voltage-54-outnod" pointList="92,52,188,52,188,-52" y="52" x="92" endpinid="Seven Segment-55-pin_dot" enodeid="enode-58" objectName="Connector-58" valLabelx="0"/>
+ 
+Connector-59: 
+<item valLabely="0" labelrot="0" id="Connector-59" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Fixed Voltage-53-outnod" pointList="92,20,172,20,172,-60" y="20" x="92" endpinid="Seven Segment-55-pin_g" enodeid="enode-59" objectName="Connector-59" valLabelx="0"/>
+ 
+Connector-60: 
+<item valLabely="0" labelrot="0" id="Connector-60" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Fixed Voltage-52-outnod" pointList="92,-12,164,-12,164,-68,172,-68" y="-12" x="92" endpinid="Seven Segment-55-pin_f" enodeid="enode-60" objectName="Connector-60" valLabelx="0"/>
+ 
+Connector-61: 
+<item valLabely="0" labelrot="0" id="Connector-61" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Fixed Voltage-51-outnod" pointList="92,-44,156,-44,156,-76,172,-76" y="-44" x="92" endpinid="Seven Segment-55-pin_e" enodeid="enode-61" objectName="Connector-61" valLabelx="0"/>
+ 
+Connector-62: 
+<item valLabely="0" labelrot="0" id="Connector-62" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Fixed Voltage-50-outnod" pointList="92,-76,148,-76,148,-84,172,-84" y="-76" x="92" endpinid="Seven Segment-55-pin_d" enodeid="enode-62" objectName="Connector-62" valLabelx="0"/>
+ 
+Connector-63: 
+<item valLabely="0" labelrot="0" id="Connector-63" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Fixed Voltage-49-outnod" pointList="92,-108,92,-92,172,-92" y="-108" x="92" endpinid="Seven Segment-55-pin_c" enodeid="enode-63" objectName="Connector-63" valLabelx="0"/>
+ 
+Connector-64: 
+<item valLabely="0" labelrot="0" id="Connector-64" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Fixed Voltage-1-outnod" pointList="92,-140,108,-140,108,-100,172,-100" y="-140" x="92" endpinid="Seven Segment-55-pin_b" enodeid="enode-64" objectName="Connector-64" valLabelx="0"/>
+ 
+Connector-65: 
+<item valLabely="0" labelrot="0" id="Connector-65" itemtype="Connector" labely="-24" labelx="-16" rotation="0" hflip="1" vflip="1" Show_id="false" valLabRot="0" startpinid="Seven Segment-55-pin_a" pointList="172,-108,124,-108,124,-172,92,-172" y="-108" x="172" endpinid="Fixed Voltage-2-outnod" enodeid="enode-65" objectName="Connector-65" valLabelx="0"/>
+ 
+PlotterWidget-47: 
+<item modal="false" size="" statusTip="" cursor="" layoutDirection="0" objectName="PlotterWidget-47" windowIcon="" maximumSize="" maximumWidth="1000" minimumHeight="200" focus="false" frameSize="" inputMethodHints="0" childrenRegion="" minimumSize="" sizeHint="" windowTitle="" enabled="true" sizeIncrement="" x="0" autoFillBackground="false" pos="" childrenRect="" whatsThis="" height="200" windowFilePath="" contextMenuPolicy="1" acceptDrops="false" windowIconText="" toolTip="" y="546" sizePolicy="" isActiveWindow="true" mouseTracking="false" maximized="false" MaxVolt="500" baseSize="" minimized="false" normalGeometry="" MinVolt="-500" focusPolicy="0" frameGeometry="" palette="" rect="" minimumSizeHint="" locale="" styleSheet="" toolTipDuration="-1" windowOpacity="1" accessibleDescription="" maximumHeight="200" visible="false" fullScreen="false" windowModified="false" geometry="" width="565" updatesEnabled="true" accessibleName="" itemtype="Plotter" windowModality="0" minimumWidth="200" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+ 
+SerialPortWidget-48: 
+<item modal="false" size="" statusTip="" SettingsProp=",0,3,0,0,0" cursor="" layoutDirection="0" objectName="SerialPortWidget-48" windowIcon="" maximumSize="" maximumWidth="450" minimumHeight="0" focus="false" frameSize="" inputMethodHints="0" childrenRegion="" minimumSize="" sizeHint="" windowTitle="Settings" enabled="true" sizeIncrement="" x="0" autoFillBackground="false" pos="" childrenRect="" whatsThis="" height="141" windowFilePath="" contextMenuPolicy="1" acceptDrops="false" windowIconText="" toolTip="" y="0" sizePolicy="" isActiveWindow="true" mouseTracking="false" maximized="false" baseSize="" minimized="false" normalGeometry="" focusPolicy="0" frameGeometry="" palette="" rect="" minimumSizeHint="" locale="" styleSheet="" toolTipDuration="-1" windowOpacity="1" accessibleDescription="" maximumHeight="170" visible="false" fullScreen="false" windowModified="false" geometry="" width="313" updatesEnabled="true" accessibleName="" itemtype="SerialPort" windowModality="0" minimumWidth="0" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+ 
+</circuit>
