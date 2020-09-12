@@ -1,0 +1,30 @@
+<circuit animate="0" speed="1000000" type="simulide_0.1" noLinAcc="5" noLinStep="10" reactStep="50">
+ 
+Arduino Nano-3: 
+<item Ser_Port="true" Show_id="true" vflip="1" labelx="0" labely="-20" id="Arduino Nano-3" Ser_Monitor="true" valLabRot="0" valLabely="0" rotation="0" hflip="1" valLabelx="0" labelrot="0" Mhz="16" Program="16_tone.hex" y="-316" objectName="Arduino Nano-3" x="-436" itemtype="Arduino"/>
+ 
+AudioOut-2: 
+<item objectName="AudioOut-2" rotation="-180" x="-500" vflip="1" labely="-24" labelx="-12" hflip="1" valLabelx="0" labelrot="0" y="-276" valLabRot="0" itemtype="AudioOut" id="AudioOut-2" Impedance="8" valLabely="0" Show_id="false"/>
+ 
+Push-1: 
+<item objectName="Push-1" rotation="-90" x="-460" vflip="1" labely="-24" labelx="-16" hflip="1" Norm_Close="false" valLabelx="0" labelrot="0" y="-252" valLabRot="0" itemtype="Push" id="Push-1" valLabely="0" Show_id="false"/>
+ 
+Connector-4: 
+<item Show_id="false" vflip="1" startpinid="Arduino Nano-3-PB0" labelx="-16" enodeid="Circ_eNode-5" labely="-24" id="Connector-4" valLabRot="0" endpinid="AudioOut-2-lPin" valLabely="0" rotation="0" hflip="1" valLabelx="0" labelrot="0" pointList="-428,-220,-484,-220,-484,-268" y="-220" objectName="Connector-4" x="-428" itemtype="Connector"/>
+ 
+Connector-6: 
+<item Show_id="false" vflip="1" startpinid="Arduino Nano-3-PD6" labelx="-16" enodeid="Circ_eNode-7" labely="-24" id="Connector-6" valLabRot="0" endpinid="Push-1-lnod" valLabely="0" rotation="0" hflip="1" valLabelx="0" labelrot="0" pointList="-428,-236,-460,-236" y="-236" objectName="Connector-6" x="-428" itemtype="Connector"/>
+ 
+Connector-8: 
+<item Show_id="false" vflip="1" startpinid="AudioOut-2-rPin" labelx="-16" enodeid="Circ_eNode-9" labely="-24" id="Connector-8" valLabRot="0" endpinid="Arduino Nano-3-GND0" valLabely="0" rotation="0" hflip="1" valLabelx="0" labelrot="0" pointList="-484,-276,-428,-276" y="-276" objectName="Connector-8" x="-484" itemtype="Connector"/>
+ 
+Connector-10: 
+<item Show_id="false" vflip="1" startpinid="Push-1-rnod" labelx="-16" enodeid="Circ_eNode-11" labely="-24" id="Connector-10" valLabRot="0" endpinid="Arduino Nano-3-V5V" valLabely="0" rotation="0" hflip="1" valLabelx="0" labelrot="0" pointList="-460,-268,-460,-364,-332,-364,-332,-276,-380,-276" y="-268" objectName="Connector-10" x="-460" itemtype="Connector"/>
+ 
+PlotterWidget-12: 
+<item minimumSize="" focusPolicy="0" minimumHeight="200" MinVolt="-500" minimized="false" acceptDrops="false" childrenRect="" y="0" palette="" size="" focus="false" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" autoFillBackground="false" minimumWidth="200" frameSize="" styleSheet="" windowTitle="" toolTipDuration="-1" accessibleDescription="" cursor="" width="200" pos="" childrenRegion="" windowOpacity="1" windowFilePath="" tabletTracking="false" enabled="true" frameGeometry="" whatsThis="" windowModified="false" modal="false" maximumWidth="1000" maximumHeight="200" windowModality="0" isActiveWindow="false" contextMenuPolicy="1" visible="false" toolTip="" layoutDirection="0" minimumSizeHint="" mouseTracking="false" geometry="" windowIcon="" updatesEnabled="true" locale="" height="200" baseSize="" rect="" maximized="false" inputMethodHints="0" windowIconText="" accessibleName="" sizeIncrement="" sizePolicy="" itemtype="Plotter" objectName="PlotterWidget-12" sizeHint="" x="0" normalGeometry="" maximumSize="" MaxVolt="500" fullScreen="false" statusTip=""/>
+ 
+SerialPortWidget-13: 
+<item minimumSize="" focusPolicy="0" minimumHeight="0" minimized="false" acceptDrops="false" childrenRect="" y="856" palette="" size="" focus="false" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" autoFillBackground="false" minimumWidth="0" SettingsProp=",0,3,0,0,0" frameSize="" styleSheet="" windowTitle="Settings" toolTipDuration="-1" accessibleDescription="" cursor="" width="339" pos="" childrenRegion="" windowOpacity="1" windowFilePath="" tabletTracking="false" enabled="true" frameGeometry="" whatsThis="" windowModified="false" modal="false" maximumWidth="450" maximumHeight="170" windowModality="0" isActiveWindow="false" contextMenuPolicy="1" visible="true" toolTip="" layoutDirection="0" minimumSizeHint="" mouseTracking="false" geometry="" windowIcon="" updatesEnabled="true" locale="" height="170" baseSize="" rect="" maximized="false" inputMethodHints="0" windowIconText="" accessibleName="" sizeIncrement="" sizePolicy="" itemtype="SerialPort" objectName="SerialPortWidget-13" sizeHint="" x="594" normalGeometry="" maximumSize="" fullScreen="false" statusTip=""/>
+ 
+</circuit>
