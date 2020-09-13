@@ -1,0 +1,54 @@
+<circuit speed="1000000" type="simulide_0.1" noLinStep="10" noLinAcc="5" animate="0" reactStep="50">
+ 
+Node-35: 
+<item id="Node-35" rotation="0" x="-20" y="28" Show_id="false" itemtype="Node" labelx="-16" labely="-24" valLabelx="0" objectName="Node-35" labelrot="0" valLabely="0" vflip="1" hflip="1" valLabRot="0"/>
+ 
+Push-32: 
+<item id="Push-32" rotation="90" x="28" y="76" Show_id="false" itemtype="Push" labelx="-16" labely="-24" valLabelx="0" objectName="Push-32" labelrot="0" valLabely="0" vflip="1" hflip="1" valLabRot="0"/>
+ 
+Push-31: 
+<item id="Push-31" rotation="90" x="-20" y="76" Show_id="false" itemtype="Push" labelx="-16" labely="-24" valLabelx="0" objectName="Push-31" labelrot="0" valLabely="0" vflip="1" hflip="1" valLabRot="0"/>
+ 
+Stepper-23: 
+<item labelx="-32" labely="-62" labelrot="0" hflip="1" valLabelx="0" Resistance="100" x="-108" id="Stepper-23" itemtype="Stepper" rotation="0" valLabRot="0" y="-100" Show_id="true" vflip="1" Steps="32" objectName="Stepper-23" valLabely="0" Unit=" O"/>
+ 
+Arduino Nano-3: 
+<item labelx="0" labely="-20" labelrot="0" Ser_Monitor="false" Mhz="16" hflip="1" valLabelx="0" x="-132" id="Arduino Nano-3" itemtype="Arduino" rotation="0" Program="C:/Users/Arthur/AppData/Local/simulide/codeeditor/buildIno/20_Motor_Passo.ino.hex" valLabRot="0" y="-12" Show_id="true" vflip="1" objectName="Arduino Nano-3" Ser_Port="false" valLabely="0"/>
+ 
+Connector-26: 
+<item labelx="-16" labely="-24" labelrot="0" hflip="1" endpinid="Arduino Nano-3-PD2" valLabelx="0" x="-180" id="Connector-26" itemtype="Connector" rotation="0" valLabRot="0" y="-68" Show_id="false" vflip="1" startpinid="Stepper-23-PinB2" enodeid="enode-26" objectName="Connector-26" valLabely="0" pointList="-180,-68,-180,36,-124,36"/>
+ 
+Connector-27: 
+<item labelx="-16" labely="-24" labelrot="0" hflip="1" endpinid="Arduino Nano-3-PD3" valLabelx="0" x="-180" id="Connector-27" itemtype="Connector" rotation="0" valLabRot="0" y="-84" Show_id="false" vflip="1" startpinid="Stepper-23-PinA2" enodeid="enode-27" objectName="Connector-27" valLabely="0" pointList="-180,-84,-204,-84,-204,44,-124,44"/>
+ 
+Connector-29: 
+<item labelx="-16" labely="-24" labelrot="0" hflip="1" endpinid="Arduino Nano-3-PD4" valLabelx="0" x="-180" id="Connector-29" itemtype="Connector" rotation="0" valLabRot="0" y="-116" Show_id="false" vflip="1" startpinid="Stepper-23-PinB1" enodeid="enode-29" objectName="Connector-29" valLabely="0" pointList="-180,-116,-244,-116,-244,52,-124,52"/>
+ 
+Connector-30: 
+<item labelx="-16" labely="-24" labelrot="0" hflip="1" endpinid="Arduino Nano-3-PD5" valLabelx="0" x="-180" id="Connector-30" itemtype="Connector" rotation="0" valLabRot="0" y="-132" Show_id="false" vflip="1" startpinid="Stepper-23-PinA1" enodeid="enode-30" objectName="Connector-30" valLabely="0" pointList="-180,-132,-260,-132,-260,60,-124,60"/>
+ 
+Connector-33: 
+<item labelx="-16" labely="-24" labelrot="0" hflip="1" endpinid="Node-35-0" valLabelx="0" x="-76" id="Connector-33" itemtype="Connector" rotation="0" valLabRot="0" y="28" Show_id="false" vflip="1" startpinid="Arduino Nano-3-V5V" enodeid="enode-34" objectName="Connector-33" valLabely="0" pointList="-76,28,-20,28"/>
+ 
+Connector-34: 
+<item labelx="-16" labely="-24" labelrot="0" hflip="1" endpinid="Node-35-1" valLabelx="0" x="-20" id="Connector-34" itemtype="Connector" rotation="0" valLabRot="0" y="60" Show_id="false" vflip="1" startpinid="Push-31-lnod" enodeid="enode-34" objectName="Connector-34" valLabely="0" pointList="-20,60,-20,28"/>
+ 
+Connector-36: 
+<item labelx="-16" labely="-24" labelrot="0" hflip="1" endpinid="Push-32-lnod" valLabelx="0" x="-20" id="Connector-36" itemtype="Connector" rotation="0" valLabRot="0" y="28" Show_id="false" vflip="1" startpinid="Node-35-2" enodeid="enode-34" objectName="Connector-36" valLabely="0" pointList="-20,28,28,28,28,60"/>
+ 
+Connector-37: 
+<item labelx="-16" labely="-24" labelrot="0" hflip="1" endpinid="Arduino Nano-3-PB2" valLabelx="0" x="-20" id="Connector-37" itemtype="Connector" rotation="0" valLabRot="0" y="92" Show_id="false" vflip="1" startpinid="Push-31-rnod" enodeid="enode-37" objectName="Connector-37" valLabely="0" pointList="-20,92,-20,148,-140,148,-140,100,-124,100"/>
+ 
+Connector-41: 
+<item labelx="-16" labely="-24" labelrot="0" hflip="1" endpinid="Arduino Nano-3-PB1" valLabelx="0" x="28" id="Connector-41" itemtype="Connector" rotation="0" valLabRot="0" y="92" Show_id="false" vflip="1" startpinid="Push-32-rnod" enodeid="enode-41" objectName="Connector-41" valLabely="0" pointList="28,92,28,196,-156,196,-156,92,-124,92"/>
+ 
+Connector-44: 
+<item labelx="-16" labely="-24" labelrot="0" hflip="1" endpinid="Arduino Nano-3-GND0" valLabelx="0" x="-180" id="Connector-44" itemtype="Connector" rotation="0" valLabRot="0" y="-100" Show_id="false" vflip="1" startpinid="Stepper-23-PinCo" enodeid="enode-44" objectName="Connector-44" valLabely="0" pointList="-180,-100,-228,-100,-228,28,-124,28"/>
+ 
+PlotterWidget-1: 
+<item toolTipDuration="-1" autoFillBackground="false" focusPolicy="0" mouseTracking="false" minimumSize="" childrenRect="" font="Sans Serif,9,-1,5,50,0,0,0,0,0" acceptDrops="false" toolTip="" focus="false" maximumWidth="1000" frameSize="" whatsThis="" windowIcon="" modal="false" minimumHeight="200" fullScreen="false" statusTip="" windowModality="0" windowIconText="" normalGeometry="" updatesEnabled="true" frameGeometry="" maximumSize="" MinVolt="0" maximumHeight="200" cursor="" visible="false" minimumWidth="200" isActiveWindow="true" sizeIncrement="" contextMenuPolicy="1" accessibleName="" height="200" width="200" windowTitle="" MaxVolt="500" rect="" sizePolicy="" palette="" sizeHint="" windowOpacity="1" windowModified="false" styleSheet="" pos="" y="0" maximized="false" x="0" windowFilePath="" objectName="PlotterWidget-1" locale="" minimumSizeHint="" layoutDirection="0" itemtype="Plotter" accessibleDescription="" geometry="" enabled="true" size="" inputMethodHints="0" childrenRegion="" baseSize="" minimized="false"/>
+ 
+SerialPortWidget-2: 
+<item toolTipDuration="-1" autoFillBackground="false" focusPolicy="0" mouseTracking="false" minimumSize="" childrenRect="" font="Sans Serif,9,-1,5,50,0,0,0,0,0" acceptDrops="false" toolTip="" focus="false" maximumWidth="450" frameSize="" whatsThis="" windowIcon="" modal="false" minimumHeight="0" fullScreen="false" statusTip="" windowModality="0" SettingsProp="ttyS0,0,3,0,0,0" windowIconText="" normalGeometry="" updatesEnabled="true" frameGeometry="" maximumSize="" maximumHeight="170" cursor="" visible="false" minimumWidth="0" isActiveWindow="true" sizeIncrement="" contextMenuPolicy="1" accessibleName="" height="141" width="313" windowTitle="Configuracion" rect="" sizePolicy="" palette="" sizeHint="" windowOpacity="1" windowModified="false" styleSheet="" pos="" y="0" maximized="false" x="0" windowFilePath="" objectName="SerialPortWidget-2" locale="" minimumSizeHint="" layoutDirection="0" itemtype="SerialPort" accessibleDescription="" geometry="" enabled="true" size="" inputMethodHints="0" childrenRegion="" baseSize="" minimized="false"/>
+ 
+</circuit>
