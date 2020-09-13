@@ -1,0 +1,45 @@
+<circuit type="simulide_0.1" speed="1000000" noLinAcc="5" animate="0" reactStep="50" noLinStep="10">
+ 
+Arduino Nano-6: 
+<item itemtype="Arduino" Show_id="true" x="-412" rotation="0" hflip="1" labelx="0" Ser_Port="false" id="Arduino Nano-6" objectName="Arduino Nano-6" vflip="1" Ser_Monitor="false" Mhz="16" y="-612" Program="23_servo_pot.hex" valLabRot="0" labely="-20" labelrot="0" valLabely="0" valLabelx="0"/>
+ 
+Potentiometer-5: 
+<item itemtype="Potentiometer" Show_id="false" x="-300" rotation="0" Resistance="1" hflip="1" labelx="-16" id="Potentiometer-5" objectName="Potentiometer-5" Show_res="true" Unit=" kΩ" vflip="1" Value_Ohm="403" y="-572" valLabRot="0" labely="-24" labelrot="0" valLabely="-20" valLabelx="10"/>
+ 
+Servo-4: 
+<item itemtype="Servo" labely="-24" labelrot="0" valLabRot="0" Show_id="false" Speed="0.2" valLabely="0" labelx="-16" hflip="1" id="Servo-4" y="-676" valLabelx="0" x="-300" rotation="0" vflip="1" objectName="Servo-4"/>
+ 
+Rail-3: 
+<item Show_Volt="true" itemtype="Rail" Show_id="false" x="-468" rotation="0" hflip="1" labelx="-64" id="Rail-3" objectName="Rail-3" Unit=" V" vflip="1" y="-692" valLabRot="0" labely="-24" labelrot="0" valLabely="8" valLabelx="-16" Voltage="5"/>
+ 
+Ground-2: 
+<item itemtype="Ground" labely="-24" labelrot="0" valLabRot="0" Show_id="false" valLabely="0" labelx="-16" hflip="1" id="Ground-2" y="-652" valLabelx="0" x="-452" rotation="0" vflip="1" objectName="Ground-2"/>
+ 
+Probe-1: 
+<item itemtype="Probe" labely="-16" labelrot="45" valLabRot="45" Show_id="false" PlotterCh="0" valLabely="0" Show_volt="true" labelx="16" hflip="1" id="Probe-1" y="-524" valLabelx="16" x="-300" rotation="-45" vflip="1" objectName="Probe-1"/>
+ 
+Connector-7: 
+<item itemtype="Connector" Show_id="false" endpinid="Servo-4-in0" startpinid="Rail-3-outnod" x="-452" rotation="0" pointList="-452,-692,-348,-692" hflip="1" labelx="-16" id="Connector-7" objectName="Connector-7" enodeid="Circ_eNode-8" vflip="1" y="-692" valLabRot="0" labely="-24" labelrot="0" valLabely="0" valLabelx="0"/>
+ 
+Connector-9: 
+<item itemtype="Connector" Show_id="false" endpinid="Ground-2-Gnd" startpinid="Servo-4-in1" x="-348" rotation="0" pointList="-348,-676,-452,-676,-452,-668" hflip="1" labelx="-16" id="Connector-9" objectName="Connector-9" enodeid="Circ_eNode-10" vflip="1" y="-676" valLabRot="0" labely="-24" labelrot="0" valLabely="0" valLabelx="0"/>
+ 
+Connector-11: 
+<item itemtype="Connector" Show_id="false" endpinid="Arduino Nano-6-PD5" startpinid="Servo-4-in2" x="-348" rotation="0" pointList="-348,-660,-428,-660,-428,-540,-404,-540" hflip="1" labelx="-16" id="Connector-11" objectName="Connector-11" enodeid="Circ_eNode-12" vflip="1" y="-660" valLabRot="0" labely="-24" labelrot="0" valLabely="0" valLabelx="0"/>
+ 
+Connector-13: 
+<item itemtype="Connector" Show_id="false" endpinid="Arduino Nano-6-V5V" startpinid="Potentiometer-5-PinA" x="-316" rotation="0" pointList="-316,-572,-356,-572" hflip="1" labelx="-16" id="Connector-13" objectName="Connector-13" enodeid="Circ_eNode-14" vflip="1" y="-572" valLabRot="0" labely="-24" labelrot="0" valLabely="0" valLabelx="0"/>
+ 
+Connector-15: 
+<item itemtype="Connector" Show_id="false" endpinid="Arduino Nano-6-PC0" startpinid="Potentiometer-5-PinM" x="-300" rotation="0" pointList="-300,-556,-300,-508,-356,-508" hflip="1" labelx="-16" id="Connector-15" objectName="Connector-15" enodeid="Circ_eNode-16" vflip="1" y="-556" valLabRot="0" labely="-24" labelrot="0" valLabely="0" valLabelx="0"/>
+ 
+Connector-17: 
+<item itemtype="Connector" Show_id="false" endpinid="Potentiometer-5-PinB" startpinid="Arduino Nano-6-GND1" x="-356" rotation="0" pointList="-356,-588,-324,-588,-324,-612,-260,-612,-260,-572,-284,-572" hflip="1" labelx="-16" id="Connector-17" objectName="Connector-17" enodeid="Circ_eNode-18" vflip="1" y="-588" valLabRot="0" labely="-24" labelrot="0" valLabely="0" valLabelx="0"/>
+ 
+PlotterWidget-19: 
+<item visible="false" windowTitle="" locale="" childrenRegion="" windowOpacity="1" fullScreen="false" focusPolicy="0" pos="" mouseTracking="false" sizePolicy="" accessibleName="" frameSize="" maximumWidth="1000" width="200" minimized="false" styleSheet="" windowModified="false" baseSize="" focus="false" enabled="true" windowFilePath="" minimumHeight="200" acceptDrops="false" sizeHint="" toolTip="" windowIcon="" MinVolt="-500" inputMethodHints="0" palette="" statusTip="" rect="" objectName="PlotterWidget-19" toolTipDuration="-1" accessibleDescription="" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" tabletTracking="false" layoutDirection="0" minimumSizeHint="" cursor="" itemtype="Plotter" isActiveWindow="true" contextMenuPolicy="1" whatsThis="" maximized="false" y="0" childrenRect="" windowModality="0" height="200" maximumHeight="200" maximumSize="" minimumWidth="200" size="" MaxVolt="500" geometry="" updatesEnabled="true" windowIconText="" sizeIncrement="" modal="false" x="0" normalGeometry="" frameGeometry="" minimumSize="" autoFillBackground="false"/>
+ 
+SerialPortWidget-20: 
+<item visible="false" windowTitle="Settings" locale="" childrenRegion="" windowOpacity="1" fullScreen="false" focusPolicy="0" pos="" mouseTracking="false" sizePolicy="" accessibleName="" frameSize="" maximumWidth="450" width="313" minimized="false" styleSheet="" windowModified="false" baseSize="" focus="false" enabled="true" windowFilePath="" minimumHeight="0" acceptDrops="false" sizeHint="" toolTip="" windowIcon="" inputMethodHints="0" palette="" statusTip="" rect="" objectName="SerialPortWidget-20" toolTipDuration="-1" accessibleDescription="" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" tabletTracking="false" layoutDirection="0" SettingsProp=",0,3,0,0,0" minimumSizeHint="" cursor="" itemtype="SerialPort" isActiveWindow="true" contextMenuPolicy="1" whatsThis="" maximized="false" y="0" childrenRect="" windowModality="0" height="141" maximumHeight="170" maximumSize="" minimumWidth="0" size="" geometry="" updatesEnabled="true" windowIconText="" sizeIncrement="" modal="false" x="0" normalGeometry="" frameGeometry="" minimumSize="" autoFillBackground="false"/>
+ 
+</circuit>
