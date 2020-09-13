@@ -1,5 +1,4 @@
 const int botao1=9, botao2=10; 
-
 void setup() {
 	pinMode(botao1, INPUT);
 	pinMode(botao2, INPUT);
