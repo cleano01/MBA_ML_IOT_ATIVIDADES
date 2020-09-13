@@ -1,0 +1,30 @@
+<circuit type="simulide_0.1" speed="1000000" noLinAcc="5" animate="0" reactStep="50" noLinStep="10">
+ 
+Ground-10: 
+<item objectName="Ground-10" y="-372" valLabRot="0" id="Ground-10" labelrot="0" valLabely="0" x="-556" hflip="1" valLabelx="0" itemtype="Ground" Show_id="false" rotation="0" labelx="-16" labely="-24" vflip="1"/>
+ 
+Fixed Voltage-9: 
+<item rotation="0" hflip="1" labelrot="0" valLabely="8" Show_Volt="true" y="-428" Show_id="false" itemtype="Fixed Voltage" Voltage="5" id="Fixed Voltage-9" vflip="1" labelx="-64" objectName="Fixed Voltage-9" valLabRot="0" valLabelx="-16" labely="-24" Unit=" V" x="-580"/>
+ 
+Arduino Nano-2: 
+<item rotation="0" hflip="1" Ser_Monitor="false" labelrot="0" valLabely="0" Mhz="16" y="-332" Program="C:/Users/Arthur/AppData/Local/simulide/codeeditor/buildIno/22_Servo_Motor_Serial.ino.hex" Show_id="true" itemtype="Arduino" Ser_Port="false" id="Arduino Nano-2" vflip="1" labelx="0" objectName="Arduino Nano-2" valLabRot="0" valLabelx="0" labely="-20" x="-484"/>
+ 
+Servo-1: 
+<item objectName="Servo-1" y="-412" valLabRot="0" id="Servo-1" labelrot="0" valLabely="0" x="-420" hflip="1" valLabelx="0" Speed="0.20000000000000001" itemtype="Servo" Show_id="false" rotation="0" labelx="-16" labely="-24" vflip="1"/>
+ 
+Connector-3: 
+<item rotation="0" hflip="1" labelrot="0" endpinid="Arduino Nano-2-PD5" valLabely="0" y="-396" Show_id="false" startpinid="Servo-1-in2" itemtype="Connector" id="Connector-3" vflip="1" labelx="-16" objectName="Connector-3" valLabRot="0" valLabelx="0" labely="-24" pointList="-468,-396,-516,-396,-516,-260,-476,-260" enodeid="enode-3" x="-468"/>
+ 
+Connector-11: 
+<item rotation="0" hflip="1" labelrot="0" endpinid="Servo-1-in1" valLabely="0" y="-388" Show_id="false" startpinid="Ground-10-Gnd" itemtype="Connector" id="Connector-11" vflip="1" labelx="-16" objectName="Connector-11" valLabRot="0" valLabelx="0" labely="-24" pointList="-556,-388,-556,-412,-468,-412" enodeid="enode-11" x="-556"/>
+ 
+Connector-12: 
+<item rotation="0" hflip="1" labelrot="0" endpinid="Servo-1-in0" valLabely="0" y="-428" Show_id="false" startpinid="Fixed Voltage-9-outnod" itemtype="Connector" id="Connector-12" vflip="1" labelx="-16" objectName="Connector-12" valLabRot="0" valLabelx="0" labely="-24" pointList="-564,-428,-468,-428" enodeid="enode-12" x="-564"/>
+ 
+PlotterWidget: 
+<item minimized="false" childrenRegion="" maximumWidth="1000" rect="" frameGeometry="" layoutDirection="0" normalGeometry="" contextMenuPolicy="1" windowFilePath="" x="0" statusTip="" maximumHeight="200" pos="" toolTipDuration="-1" autoFillBackground="false" childrenRect="" accessibleName="" y="0" itemtype="Plotter" whatsThis="" minimumWidth="200" styleSheet="" accessibleDescription="" geometry="" visible="false" objectName="PlotterWidget" size="" sizeIncrement="" MaxVolt="500" windowModified="false" toolTip="" palette="" mouseTracking="false" updatesEnabled="true" baseSize="" windowModality="0" windowTitle="" windowOpacity="1" width="200" windowIconText="" sizePolicy="" fullScreen="false" focusPolicy="0" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" acceptDrops="false" focus="false" isActiveWindow="true" modal="false" inputMethodHints="0" height="200" maximized="false" minimumSizeHint="" minimumSize="" locale="" minimumHeight="200" maximumSize="" enabled="true" frameSize="" windowIcon="" cursor="" sizeHint="" MinVolt="-500"/>
+ 
+SerialPortWidget: 
+<item minimized="false" childrenRegion="" maximumWidth="450" rect="" frameGeometry="" layoutDirection="0" normalGeometry="" contextMenuPolicy="1" windowFilePath="" x="57" statusTip="" maximumHeight="170" pos="" toolTipDuration="-1" autoFillBackground="false" childrenRect="" accessibleName="" y="623" itemtype="SerialPort" whatsThis="" minimumWidth="0" styleSheet="" accessibleDescription="" geometry="" visible="false" objectName="SerialPortWidget" SettingsProp=",0,3,0,0,0" size="" sizeIncrement="" windowModified="false" toolTip="" palette="" mouseTracking="false" updatesEnabled="true" baseSize="" windowModality="0" windowTitle="Settings" windowOpacity="1" width="450" windowIconText="" sizePolicy="" fullScreen="false" focusPolicy="0" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" acceptDrops="false" focus="false" isActiveWindow="true" modal="false" inputMethodHints="0" height="123" maximized="false" minimumSizeHint="" minimumSize="" locale="" minimumHeight="0" maximumSize="" enabled="true" frameSize="" windowIcon="" cursor="" sizeHint=""/>
+ 
+</circuit>
