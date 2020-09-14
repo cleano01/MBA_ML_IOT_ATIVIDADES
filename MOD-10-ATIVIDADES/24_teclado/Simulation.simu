@@ -1,0 +1,105 @@
+<circuit animate="0" reactStep="50" type="simulide_0.1" noLinAcc="5" noLinStep="10" speed="1000000">
+ 
+Node-40: 
+<item labely="-24" valLabely="0" objectName="Node-40" itemtype="Node" valLabelx="0" x="-172" valLabRot="0" labelx="-16" vflip="1" y="-252" Show_id="false" hflip="1" rotation="0" id="Node-40" labelrot="0"/>
+ 
+Node-37: 
+<item labely="-24" valLabely="0" objectName="Node-37" itemtype="Node" valLabelx="0" x="-172" valLabRot="0" labelx="-16" vflip="1" y="-284" Show_id="false" hflip="1" rotation="0" id="Node-37" labelrot="0"/>
+ 
+Ground-34: 
+<item labely="-24" valLabely="0" objectName="Ground-34" itemtype="Ground" valLabelx="0" x="-172" valLabRot="0" labelx="-16" vflip="1" y="-220" Show_id="false" hflip="1" rotation="0" id="Ground-34" labelrot="0"/>
+ 
+Led-33: 
+<item labelx="-16" rotation="0" Show_id="false" itemtype="Led" y="-252" valLabRot="0" Threshold="2.3999999999999999" objectName="Led-33" id="Led-33" Color="0" vflip="1" valLabelx="0" labely="-24" valLabely="0" hflip="1" Resistance="0.59999999999999998" Grounded="false" labelrot="0" x="-212" MaxCurrent="0.029999999999999999"/>
+ 
+Led-32: 
+<item labelx="-16" rotation="0" Show_id="false" itemtype="Led" y="-284" valLabRot="0" Threshold="2.3999999999999999" objectName="Led-32" id="Led-32" Color="0" vflip="1" valLabelx="0" labely="-24" valLabely="0" hflip="1" Resistance="0.59999999999999998" Grounded="false" labelrot="0" x="-212" MaxCurrent="0.029999999999999999"/>
+ 
+Led-30: 
+<item labelx="-16" rotation="0" Show_id="false" itemtype="Led" y="-316" valLabRot="0" Threshold="2.3999999999999999" objectName="Led-30" id="Led-30" Color="0" vflip="1" valLabelx="0" labely="-24" valLabely="0" hflip="1" Resistance="0.59999999999999998" Grounded="false" labelrot="0" x="-212" MaxCurrent="0.029999999999999999"/>
+ 
+Fixed Voltage-28: 
+<item labelx="-64" rotation="0" Show_id="false" Voltage="5" itemtype="Fixed Voltage" y="-348" valLabRot="0" Show_Volt="true" objectName="Fixed Voltage-28" id="Fixed Voltage-28" vflip="1" valLabelx="-16" labely="-24" valLabely="8" hflip="-1" Unit=" V" labelrot="0" x="-188"/>
+ 
+Fixed Voltage-24: 
+<item labelx="-64" rotation="0" Show_id="false" Voltage="5" itemtype="Fixed Voltage" y="-380" valLabRot="0" Show_Volt="true" objectName="Fixed Voltage-24" id="Fixed Voltage-24" vflip="1" valLabelx="-16" labely="-24" valLabely="8" hflip="-1" Unit=" V" labelrot="0" x="-188"/>
+ 
+Fixed Voltage-23: 
+<item labelx="-64" rotation="0" Show_id="false" Voltage="5" itemtype="Fixed Voltage" y="-412" valLabRot="0" Show_Volt="true" objectName="Fixed Voltage-23" id="Fixed Voltage-23" vflip="1" valLabelx="-16" labely="-24" valLabely="8" hflip="-1" Unit=" V" labelrot="0" x="-188"/>
+ 
+Fixed Voltage-22: 
+<item labelx="-64" rotation="0" Show_id="false" Voltage="5" itemtype="Fixed Voltage" y="-444" valLabRot="0" Show_Volt="true" objectName="Fixed Voltage-22" id="Fixed Voltage-22" vflip="1" valLabelx="-16" labely="-24" valLabely="8" hflip="-1" Unit=" V" labelrot="0" x="-188"/>
+ 
+KeyPad-19: 
+<item labelx="-16" rotation="0" Show_id="false" Rows="4" itemtype="KeyPad" y="-428" Cols="3" valLabRot="0" objectName="KeyPad-19" id="KeyPad-19" vflip="1" valLabelx="0" labely="-24" valLabely="0" hflip="1" labelrot="0" Key_Labels="123456789*0#" x="-276"/>
+ 
+Arduino Nano-2: 
+<item Program="C:/Users/Arthur/AppData/Local/simulide/codeeditor/buildIno/24_Teclado.ino.hex" labelx="0" rotation="0" Ser_Port="false" Show_id="true" itemtype="Arduino" y="-348" valLabRot="0" objectName="Arduino Nano-2" id="Arduino Nano-2" Ser_Monitor="true" vflip="1" valLabelx="0" labely="-20" valLabely="0" hflip="1" labelrot="0" Mhz="16" x="-388"/>
+ 
+KeyPad-1: 
+<item labelx="-16" rotation="0" Show_id="false" Rows="4" itemtype="KeyPad" y="-412" Cols="3" valLabRot="0" objectName="KeyPad-1" id="KeyPad-1" vflip="1" valLabelx="0" labely="-24" valLabely="0" hflip="1" labelrot="0" Key_Labels="123456789*0#" x="-516"/>
+ 
+Connector-3: 
+<item labelx="-16" rotation="0" Show_id="false" enodeid="Circ_eNode-4" itemtype="Connector" y="-404" valLabRot="0" objectName="Connector-3" id="Connector-3" vflip="1" valLabelx="0" labely="-24" pointList="-468,-404,-412,-404,-412,-300,-380,-300" valLabely="0" hflip="1" labelrot="0" endpinid="Arduino Nano-2-PD2" x="-468" startpinid="KeyPad-1-Pin0"/>
+ 
+Connector-5: 
+<item labelx="-16" rotation="0" Show_id="false" enodeid="Circ_eNode-6" itemtype="Connector" y="-388" valLabRot="0" objectName="Connector-5" id="Connector-5" vflip="1" valLabelx="0" labely="-24" pointList="-468,-388,-420,-388,-420,-292,-380,-292" valLabely="0" hflip="1" labelrot="0" endpinid="Arduino Nano-2-PD3" x="-468" startpinid="KeyPad-1-Pin1"/>
+ 
+Connector-7: 
+<item labelx="-16" rotation="0" Show_id="false" enodeid="Circ_eNode-8" itemtype="Connector" y="-372" valLabRot="0" objectName="Connector-7" id="Connector-7" vflip="1" valLabelx="0" labely="-24" pointList="-468,-372,-428,-372,-428,-284,-380,-284" valLabely="0" hflip="1" labelrot="0" endpinid="Arduino Nano-2-PD4" x="-468" startpinid="KeyPad-1-Pin2"/>
+ 
+Connector-9: 
+<item labelx="-16" rotation="0" Show_id="false" enodeid="Circ_eNode-10" itemtype="Connector" y="-356" valLabRot="0" objectName="Connector-9" id="Connector-9" vflip="1" valLabelx="0" labely="-24" pointList="-468,-356,-436,-356,-436,-276,-380,-276" valLabely="0" hflip="1" labelrot="0" endpinid="Arduino Nano-2-PD5" x="-468" startpinid="KeyPad-1-Pin3"/>
+ 
+Connector-11: 
+<item labelx="-16" rotation="0" Show_id="false" enodeid="Circ_eNode-12" itemtype="Connector" y="-268" valLabRot="0" objectName="Connector-11" id="Connector-11" vflip="1" valLabelx="0" labely="-24" pointList="-380,-268,-516,-268,-516,-340" valLabely="0" hflip="1" labelrot="0" endpinid="KeyPad-1-Pin4" x="-380" startpinid="Arduino Nano-2-PD6"/>
+ 
+Connector-13: 
+<item labelx="-16" rotation="0" Show_id="false" enodeid="Circ_eNode-14" itemtype="Connector" y="-260" valLabRot="0" objectName="Connector-13" id="Connector-13" vflip="1" valLabelx="0" labely="-24" pointList="-380,-260,-500,-260,-500,-340" valLabely="0" hflip="1" labelrot="0" endpinid="KeyPad-1-Pin5" x="-380" startpinid="Arduino Nano-2-PD7"/>
+ 
+Connector-15: 
+<item labelx="-16" rotation="0" Show_id="false" enodeid="Circ_eNode-16" itemtype="Connector" y="-252" valLabRot="0" objectName="Connector-15" id="Connector-15" vflip="1" valLabelx="0" labely="-24" pointList="-380,-252,-484,-252,-484,-340" valLabely="0" hflip="1" labelrot="0" endpinid="KeyPad-1-Pin6" x="-380" startpinid="Arduino Nano-2-PB0"/>
+ 
+Connector-25: 
+<item labelx="-16" rotation="0" Show_id="false" enodeid="enode-25" itemtype="Connector" y="-444" valLabRot="0" objectName="Connector-25" id="Connector-25" vflip="1" valLabelx="0" labely="-24" pointList="-204,-444,-228,-444,-228,-420" valLabely="0" hflip="1" labelrot="0" endpinid="KeyPad-19-Pin0" x="-204" startpinid="Fixed Voltage-22-outnod"/>
+ 
+Connector-26: 
+<item labelx="-16" rotation="0" Show_id="false" enodeid="enode-26" itemtype="Connector" y="-412" valLabRot="0" objectName="Connector-26" id="Connector-26" vflip="1" valLabelx="0" labely="-24" pointList="-204,-412,-228,-412,-228,-404" valLabely="0" hflip="1" labelrot="0" endpinid="KeyPad-19-Pin1" x="-204" startpinid="Fixed Voltage-23-outnod"/>
+ 
+Connector-27: 
+<item labelx="-16" rotation="0" Show_id="false" enodeid="enode-27" itemtype="Connector" y="-380" valLabRot="0" objectName="Connector-27" id="Connector-27" vflip="1" valLabelx="0" labely="-24" pointList="-204,-380,-228,-380,-228,-388" valLabely="0" hflip="1" labelrot="0" endpinid="KeyPad-19-Pin2" x="-204" startpinid="Fixed Voltage-24-outnod"/>
+ 
+Connector-29: 
+<item labelx="-16" rotation="0" Show_id="false" enodeid="enode-29" itemtype="Connector" y="-348" valLabRot="0" objectName="Connector-29" id="Connector-29" vflip="1" valLabelx="0" labely="-24" pointList="-204,-348,-228,-348,-228,-372" valLabely="0" hflip="1" labelrot="0" endpinid="KeyPad-19-Pin3" x="-204" startpinid="Fixed Voltage-28-outnod"/>
+ 
+Connector-35: 
+<item labelx="-16" rotation="0" Show_id="false" enodeid="enode-39" itemtype="Connector" y="-220" valLabRot="0" objectName="Connector-35" id="Connector-35" vflip="1" valLabelx="0" labely="-24" pointList="-172,-236,-172,-252" valLabely="0" hflip="1" labelrot="0" endpinid="Node-40-0" x="-172" startpinid="Ground-34-Gnd"/>
+ 
+Connector-36: 
+<item labelx="-16" rotation="0" Show_id="false" enodeid="enode-39" itemtype="Connector" y="-268" valLabRot="0" objectName="Connector-36" id="Connector-36" vflip="1" valLabelx="0" labely="-24" pointList="-196,-284,-172,-284" valLabely="0" hflip="1" labelrot="0" endpinid="Node-37-1" x="-196" startpinid="Led-32-rPin"/>
+ 
+Connector-38: 
+<item labelx="-16" rotation="0" Show_id="false" enodeid="enode-39" itemtype="Connector" y="-284" valLabRot="0" objectName="Connector-38" id="Connector-38" vflip="1" valLabelx="0" labely="-24" pointList="-172,-284,-172,-316,-196,-316" valLabely="0" hflip="1" labelrot="0" endpinid="Led-30-rPin" x="-172" startpinid="Node-37-2"/>
+ 
+Connector-39: 
+<item labelx="-16" rotation="0" Show_id="false" enodeid="enode-39" itemtype="Connector" y="-236" valLabRot="0" objectName="Connector-39" id="Connector-39" vflip="1" valLabelx="0" labely="-24" pointList="-196,-252,-172,-252" valLabely="0" hflip="1" labelrot="0" endpinid="Node-40-1" x="-196" startpinid="Led-33-rPin"/>
+ 
+Connector-41: 
+<item labelx="-16" rotation="0" Show_id="false" enodeid="enode-39" itemtype="Connector" y="-236" valLabRot="0" objectName="Connector-41" id="Connector-41" vflip="1" valLabelx="0" labely="-24" pointList="-172,-252,-172,-284" valLabely="0" hflip="1" labelrot="0" endpinid="Node-37-0" x="-172" startpinid="Node-40-2"/>
+ 
+Connector-42: 
+<item labelx="-16" rotation="0" Show_id="false" enodeid="enode-42" itemtype="Connector" y="-252" valLabRot="0" objectName="Connector-42" id="Connector-42" vflip="1" valLabelx="0" labely="-24" pointList="-228,-252,-276,-252,-276,-356" valLabely="0" hflip="1" labelrot="0" endpinid="KeyPad-19-Pin4" x="-228" startpinid="Led-33-lPin"/>
+ 
+Connector-43: 
+<item labelx="-16" rotation="0" Show_id="false" enodeid="enode-43" itemtype="Connector" y="-284" valLabRot="0" objectName="Connector-43" id="Connector-43" vflip="1" valLabelx="0" labely="-24" pointList="-228,-284,-260,-284,-260,-356" valLabely="0" hflip="1" labelrot="0" endpinid="KeyPad-19-Pin5" x="-228" startpinid="Led-32-lPin"/>
+ 
+Connector-44: 
+<item labelx="-16" rotation="0" Show_id="false" enodeid="enode-44" itemtype="Connector" y="-316" valLabRot="0" objectName="Connector-44" id="Connector-44" vflip="1" valLabelx="0" labely="-24" pointList="-228,-316,-244,-316,-244,-356" valLabely="0" hflip="1" labelrot="0" endpinid="KeyPad-19-Pin6" x="-228" startpinid="Led-30-lPin"/>
+ 
+PlotterWidget-17: 
+<item styleSheet="" itemtype="Plotter" pos="" y="0" maximumWidth="1000" layoutDirection="0" windowModified="false" sizeIncrement="" minimumHeight="200" palette="" rect="" maximized="false" statusTip="" frameGeometry="" objectName="PlotterWidget-17" accessibleDescription="" windowOpacity="1" accessibleName="" updatesEnabled="true" visible="false" minimumWidth="200" modal="false" whatsThis="" frameSize="" childrenRect="" geometry="" minimumSize="" toolTip="" maximumHeight="200" mouseTracking="false" enabled="true" width="200" contextMenuPolicy="1" fullScreen="false" minimumSizeHint="" toolTipDuration="-1" windowTitle="" locale="" MaxVolt="500" focusPolicy="0" sizeHint="" windowIconText="" height="200" autoFillBackground="false" normalGeometry="" windowModality="0" size="" windowFilePath="" windowIcon="" sizePolicy="" inputMethodHints="0" acceptDrops="false" maximumSize="" cursor="" focus="false" minimized="false" baseSize="" x="0" MinVolt="-500" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" childrenRegion="" isActiveWindow="true"/>
+ 
+SerialPortWidget-18: 
+<item styleSheet="" itemtype="SerialPort" pos="" y="0" maximumWidth="450" layoutDirection="0" windowModified="false" sizeIncrement="" minimumHeight="0" palette="" rect="" maximized="false" statusTip="" frameGeometry="" objectName="SerialPortWidget-18" accessibleDescription="" windowOpacity="1" accessibleName="" updatesEnabled="true" visible="false" minimumWidth="0" modal="false" whatsThis="" frameSize="" childrenRect="" geometry="" minimumSize="" toolTip="" maximumHeight="170" mouseTracking="false" enabled="true" SettingsProp=",0,3,0,0,0" width="313" contextMenuPolicy="1" fullScreen="false" minimumSizeHint="" toolTipDuration="-1" windowTitle="Settings" locale="" focusPolicy="0" sizeHint="" windowIconText="" height="141" autoFillBackground="false" normalGeometry="" windowModality="0" size="" windowFilePath="" windowIcon="" sizePolicy="" inputMethodHints="0" acceptDrops="false" maximumSize="" cursor="" focus="false" minimized="false" baseSize="" x="0" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" childrenRegion="" isActiveWindow="true"/>
+ 
+</circuit>
