@@ -29,7 +29,10 @@ void setup() {
 
 
 void loop() {
- Serial.println(" ");
+ Serial.println("---------------------------");
+ Serial.println("Para confirmar o numero parte # ou * ");
+ Serial.println("---------------------------");
+
 
  Serial.println("Informe o primeiro numero");
  num1 = teclado();
