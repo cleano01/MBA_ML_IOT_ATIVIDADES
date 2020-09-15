@@ -40,20 +40,21 @@ void setup() {
    delay(1000);
    
    lcd.clear();
-
 }
 
   
 void loop() {
+
   String receber_senha = teclado();
 
-   lcd.setCursor(2.5, 0); //Posiciona o cursor na coluna 1, linha 0;  
-   lcd.print("Verificando senha..."); //Envia o texto entre aspas para o LCD
+   lcd.setCursor(1, 0); //Posiciona o cursor na coluna 1, linha 0;  
+   lcd.print("Verificando..."); //Envia o texto entre aspas para o LCD
    delay(1000);
    
   if(senha == receber_senha )	{
-     lcd.setCursor(3, 0); //Posiciona o cursor na coluna 1, linha 0;  
-     lcd.print("Liberado"); //Envia o texto entre aspas para o LCD
+     lcd.clear();
+     lcd.setCursor(1, 0); //Posiciona o cursor na coluna 1, linha 0;  
+     lcd.print("Porta aberta"); //Envia o texto entre aspas para o LCD
      
 	meuservo.write(angulo_max);
      
@@ -61,8 +62,8 @@ void loop() {
 	
 	lcd.clear();
 	
-	lcd.setCursor(3, 0);  
-    lcd.print("Fechando"); 
+	lcd.setCursor(1, 0);  
+    lcd.print("Porta fechada"); 
 
     delay(1000);
 
@@ -73,7 +74,7 @@ void loop() {
   }
   else{
      lcd.clear();
-     lcd.setCursor(3, 0);  
+     lcd.setCursor(1, 0);  
      lcd.print("Senha errada"); 
 
      delay(3000);
@@ -87,7 +88,7 @@ void loop() {
 String teclado(){ 
   String num_aux = ""; 
 
-  lcd.setCursor(3, 0);  
+  lcd.setCursor(1, 0);  
   lcd.print("Digite a senha");
 
   boolean flag = false;
