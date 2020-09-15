@@ -99,37 +99,35 @@ float teclado(){
   String num_aux = ""; //String temporaria para ir armazenando os caracteres da porta serial
   boolean flag = false;
   while(flag==false){
-	  for(int linha=2;linha<=5;linha++){
-		
-		digitalWrite(linha,HIGH);	
-	
-		for(int coluna =6; coluna<=8; coluna++){		    
-			if(digitalRead(coluna)==1){
-			
-				int lin_matriz = linha -2;
-				
-				int coluna_matriz = coluna-6;
-			    
-				//Verifica se o valor encontrado e 12 ou maior, sai do loop
-				if( matriz[lin_matriz][coluna_matriz] >=12){				
-					flag=true;
-				}
-												
-				else{
-					Serial.print(matriz[lin_matriz][coluna_matriz]);
-					num_aux+= matriz[lin_matriz][coluna_matriz];
-				}
-	
-				while(digitalRead(coluna)==1){}/* Funcao while sem nada, para travar o programa enquanto o usuario
-				nao soltar a tecla pressionada */				
-			}
-		}
-		digitalWrite(linha,LOW); //Desliga a porta digital da linha em questao
-	  }
+    for(int linha=2;linha<=5;linha++){
+    
+    digitalWrite(linha,HIGH); 
+  
+    for(int coluna =6; coluna<=8; coluna++){        
+      if(digitalRead(coluna)==1){
+      
+        int lin_matriz = linha -2;
+        
+        int coluna_matriz = coluna-6;
+          
+        //Verifica se o valor encontrado e 12 ou maior, sai do loop
+        if( matriz[lin_matriz][coluna_matriz] >=12){        
+          flag=true;
+        }
+                        
+        else{
+          Serial.print(matriz[lin_matriz][coluna_matriz]);
+          num_aux+= matriz[lin_matriz][coluna_matriz];
+        }
+  
+        while(digitalRead(coluna)==1){}/* Funcao while sem nada, para travar o programa enquanto o usuario
+        nao soltar a tecla pressionada */       
+      }
+    }
+    digitalWrite(linha,LOW); //Desliga a porta digital da linha em questao
+    }
   }
   
   valor_temp = num_aux.toFloat();
   return valor_temp;
 }
-
-
