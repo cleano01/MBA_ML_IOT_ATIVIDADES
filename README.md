@@ -13,4 +13,4 @@ Atividades relacionadas ao MBA em MACHINE LEARNING COM INTERNET DAS COISAS (http
     ├── MOD-5-ATIVIDADES  - Atividades com as ferramentas rapidmainer, orange, e knime MOD-6-ATIVIDADES
     ├── MOD-6-ATIVIDADES  - Atividades da aula introdutoria de deep learning
     ├── MOD-10-ATIVIDADES - Introducão a sistemas embarcados para IOT
-    ├── MOD-11-ATIVIDADES - Criação de contratos inteligentes
+    ├── MOD-11-ATIVIDADES - Criação de contratos inteligentes (carteira de estudante)
